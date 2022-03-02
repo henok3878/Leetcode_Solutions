@@ -1,9 +1,11 @@
 class Solution {
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
         int n = profits.length;
-        Queue<Project> profitBased = new PriorityQueue<>((a,b) ->(a.profit == b.profit) ? a.capital - b.capital  : b.profit - a.profit);
+        Queue<Project> profitBased = new PriorityQueue<>(
+            (a,b) ->(a.profit == b.profit) ? a.capital - b.capital  : b.profit - a.profit);
         
-        Queue<Project> capitalBased = new PriorityQueue<>((a,b) ->(a.capital == b.capital) ? b.profit - a.profit  : a.capital - b.capital);
+        Queue<Project> capitalBased = new PriorityQueue<>(
+            (a,b) ->(a.capital == b.capital) ? b.profit - a.profit  : a.capital - b.capital);
         for(int p = 0; p < n ; p++){
             profitBased.add(new Project(profits[p],capital[p]));
         }
