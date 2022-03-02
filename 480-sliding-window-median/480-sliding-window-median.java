@@ -7,18 +7,15 @@ class Solution {
         int n = nums.length;
         double[] ans = new double[n - k + 1];
         
-      
         for(int i = 0; i < k; i++){
             add(nums[i]);
         }
-        double median = findMedian(k);
-        ans[0] = median;
+        ans[0] = findMedian(k);
         remove(nums[0]);
 
         for(int i = 1; i <= n - k ; i++){
             add(nums[i + k - 1]);
-            median = findMedian(k);
-            ans[i] = median;
+            ans[i] = findMedian(k);
             remove(nums[i]);
         }
         
@@ -58,14 +55,5 @@ class Solution {
 st: 2:01 
 
 test: 2:23
-    
-    input: nums , k
-    
-    nums : [1,3,-1,-3,5,3,6,7], k = 3;
-    
-         [-2147483648,-2147483648,2147483647,-2147483648,-2147483648,-2147483648,2147483647,2147483647,2147483647,2147483647,-2147483648,2147483647,-2147483648]   
-
-
-
 
 */
