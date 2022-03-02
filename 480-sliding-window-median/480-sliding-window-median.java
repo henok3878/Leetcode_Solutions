@@ -13,16 +13,13 @@ class Solution {
         }
         double median = findMedian(k);
         ans[0] = median;
-        //System.out.println(maxHeap + " : " + minHeap + " : " + median);
         remove(nums[0]);
 
         for(int i = 1; i <= n - k ; i++){
             add(nums[i + k - 1]);
             median = findMedian(k);
             ans[i] = median;
-            //System.out.println(maxHeap + " : " + minHeap + " : " + median);
             remove(nums[i]);
-
         }
         
         return ans;
