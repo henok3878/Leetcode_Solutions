@@ -46,3 +46,14 @@ class Solution {
     }
     
 }
+
+/*
+    Trick: Check the level below you not the level you are in
+        ex:       2   level 1
+                 / \  level 2
+                 \ /\ level 3 
+                 by default level 1 is always valid becuase it contains a single element 
+                 stand at level 1 and check if level 2 is valid if it is valid 
+                 stand at level 2 and check if level 3 is valid and keep doing 
+
+*/
