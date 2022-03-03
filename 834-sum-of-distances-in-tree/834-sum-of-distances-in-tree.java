@@ -16,25 +16,27 @@ class Solution {
             graph.get(v).add(u);
         }
         
-        dfs(0, -1);
-        dfs2(0, -1);
+        dfs(0, new HashSet<Integer>());
+        dfs2(0, new HashSet<Integer>());
         return ans;
     }
     
-     public void dfs(int node, int parent) {
+     public void dfs(int node, Set<Integer> visited) {
+        visited.add(node);
         for (int child: graph.get(node))
-            if (child != parent) {
-                dfs(child, node);
+            if(!visited.contains(child)){
+                dfs(child, visited);
                 count[node] += count[child];
                 ans[node] += ans[child] + count[child];
             }
     }
 
-    public void dfs2(int node, int parent) {
+    public void dfs2(int node, Set<Integer> visited) {
+        visited.add(node);
         for (int child: graph.get(node))
-            if (child != parent) {
-                ans[child] = ans[node] - count[child] + N - count[child];
-                dfs2(child, node);
+            if (!visited.contains(child)) {
+                ans[child] = ( ans[node] - count[child] ) + N - count[child];
+                dfs2(child, visited);
             }
     }
 }
