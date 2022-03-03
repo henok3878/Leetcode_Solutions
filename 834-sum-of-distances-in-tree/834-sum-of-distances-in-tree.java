@@ -1,26 +1,27 @@
 class Solution {
     int[] ans, count;
-    List<Set<Integer>> graph;
+    List<List<Integer>> graph;
     int N;
-    public int[] sumOfDistancesInTree(int N, int[][] edges) {
-        this.N = N;
-        graph = new ArrayList<Set<Integer>>();
+    public int[] sumOfDistancesInTree(int n, int[][] edges) {
+        this.N = n;
         ans = new int[N];
         count = new int[N];
         Arrays.fill(count, 1);
-
-        for (int i = 0; i < N; ++i)
-            graph.add(new HashSet<Integer>());
-        for (int[] edge: edges) {
-            graph.get(edge[0]).add(edge[1]);
-            graph.get(edge[1]).add(edge[0]);
+        graph = new ArrayList<>();
+        for(int i = 0; i < n; i++) graph.add(new ArrayList<>());
+        
+        for(int[] edge : edges){
+            int u = edge[0], v = edge[1];
+            graph.get(u).add(v);
+            graph.get(v).add(u);
         }
+        
         dfs(0, -1);
         dfs2(0, -1);
         return ans;
     }
-
-    public void dfs(int node, int parent) {
+    
+     public void dfs(int node, int parent) {
         for (int child: graph.get(node))
             if (child != parent) {
                 dfs(child, node);
@@ -37,6 +38,7 @@ class Solution {
             }
     }
 }
+
 
 /*
 st: 1:17 
