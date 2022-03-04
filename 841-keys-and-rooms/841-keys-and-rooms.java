@@ -27,7 +27,11 @@ class Solution {
 }
 
 /*
-st: 9:40 
-
+Solution 1: Using BFS 
+    st: 9:40 
+    sub: 9:52 
+    
+Solution 2: Using DFS
+    
 
 */
