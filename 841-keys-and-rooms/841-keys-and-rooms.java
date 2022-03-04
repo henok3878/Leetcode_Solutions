@@ -5,18 +5,17 @@ class Solution {
         int visits = 1;
         boolean[] visited = new boolean[n];
         
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(0);
+        Stack<Integer> stack = new Stack<>();
+        stack.add(0);
         visited[0] = true;
         
-        while(!queue.isEmpty()){
-            int curr = queue.poll();
-            
+        while(!stack.isEmpty()){
+            int curr = stack.pop();
             for(int adj : rooms.get(curr)){
                 if(visited[adj]) continue;
-                queue.add(adj);
                 visited[adj] = true;
                 visits++;
+                stack.push(adj);
             }
         }
         
@@ -32,6 +31,7 @@ Solution 1: Using BFS
     sub: 9:52 
     
 Solution 2: Using DFS
-    
+    st: 9:56 
+    sub: 10:01
 
 */
