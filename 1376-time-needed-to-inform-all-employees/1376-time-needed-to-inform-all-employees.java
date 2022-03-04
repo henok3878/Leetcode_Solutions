@@ -1,31 +1,28 @@
 class Solution {
+    
+    List<List<Integer>> graph;
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
-        
-        
-        List<List<Integer>> graph = new ArrayList<>();
+              
+        graph = new ArrayList<>();
         for(int i = 0; i < n; i++) graph.add(new ArrayList<>());
         for(int i = 0; i < n; i++){
             if(i == headID) continue;
             graph.get(manager[i]).add(i);
         }
-        int time = 0;
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(headID);
         
-        while(!queue.isEmpty()){
-            
-            int curr = queue.poll();
-            int manag = manager[curr];
-            informTime[curr] +=  (manag == -1 ) ? 0 : informTime[manag];
-            time = Math.max(time,informTime[curr]);
-            // here add adj to queue 
-            for(int sub : graph.get(curr)){
-                queue.add(sub);
-            }
-        }
+        return dfs(headID,manager,informTime);
         
-        return time;
-        
+    }
+    
+    private int dfs(int n,int[] manager, int[] informTime){
+       int manag = manager[n];
+       informTime[n] +=  (manag == -1 ) ? 0 : informTime[manag];
+       int res = informTime[n];
+       for(int sub : graph.get(n)){
+             res = Math.max(res,dfs(sub, manager,informTime));
+       }
+       return res;  
+
     }
 }
 
@@ -36,6 +33,6 @@ class Solution {
     sub: 9:47 
     
 2nd Solution: DFS 
-    st: 9:
-    
+    st: 9:51
+    sub: 9:58
 */
