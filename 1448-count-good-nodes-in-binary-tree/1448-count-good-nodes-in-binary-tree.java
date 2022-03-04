@@ -14,20 +14,14 @@
  * }
  */
 class Solution {
-    
-    int count = 0;
 
     public int goodNodes(TreeNode root) {
-        dfs(root,Integer.MIN_VALUE);
-        return count;
+        return dfs(root,Integer.MIN_VALUE);
     }
     
-    private void dfs(TreeNode root,int maxSofar){
-        if(root == null) return;
-        count += (root.val >= maxSofar) ? 1 : 0;
-        maxSofar = Math.max(root.val, maxSofar);
-        dfs(root.left,maxSofar);
-        dfs(root.right,maxSofar);
+    private int dfs(TreeNode root,int maxSofar){
+        if(root == null) return 0;
+        return ((root.val >= maxSofar) ? 1 : 0 ) + dfs(root.left,Math.max(root.val, maxSofar)) + dfs(root.right,Math.max(root.val, maxSofar));
     }
 }
 
@@ -35,5 +29,5 @@ class Solution {
 st: 5:05 
 
 test: 5:12 
-
+sub: 5:13
 */
