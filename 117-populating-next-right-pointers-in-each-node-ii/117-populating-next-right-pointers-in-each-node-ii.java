@@ -50,10 +50,15 @@ class Solution {
 }
 
 /*
-st: 10:08 
-test: 10:18 
-
-
+    Solution 1: Using BFS O(N) extra space 
+        st: 10:08 
+        test: 10:18 
+        sub : 10:19 
+        
+    Solution 2: 
+        st: 10:23 
+        test: 10:40
+            -> got stuck 
 
 
 */
