@@ -30,6 +30,12 @@ class Solution {
 }
 
 /*
-st: 9:25 
 
+1st Solution: BFS 
+    st: 9:25 
+    sub: 9:47 
+    
+2nd Solution: DFS 
+    st: 9:
+    
 */
