@@ -23,18 +23,17 @@ class Solution {
         queue.add(root);
         int l = 0;
         while(!queue.isEmpty()){
-            List<Integer> currLevel = new ArrayList<>();
+            int currLevel = 0;
             int size = queue.size();
             l++;
             for(int i = 0;i  < size; i++){
                 TreeNode curr = queue.poll();
-                currLevel.add(curr.val);
+                currLevel += curr.val;
                 if(curr.left != null) queue.add(curr.left);
                 if(curr.right != null) queue.add(curr.right);
             }
-            int currSum = sumNums(currLevel);
-            if(currSum > max){
-                max = currSum;
+            if(currLevel > max){
+                max = currLevel;
                 level = l;
             }
             
@@ -43,11 +42,6 @@ class Solution {
         return level;
     }
     
-    private int sumNums(List<Integer> nums){
-            int total = 0;
-            for(int num : nums) total+= num;
-            return total;
-    }
 }
 
 /*
