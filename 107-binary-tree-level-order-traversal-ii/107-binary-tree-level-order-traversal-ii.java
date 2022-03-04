@@ -42,6 +42,9 @@ class Solution {
 st: 5:24 
 
 test: 5:29 
+
+sub sol1 : 5:31
+
 1st solution: using BFS and LinkedList
 
     
