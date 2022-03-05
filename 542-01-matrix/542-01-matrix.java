@@ -13,7 +13,6 @@ class Solution {
                 else if(mat[i][j] == 0 ) queue.add(new int[]{i,j});
             }
             
-        
         int level = 0;
         while(!queue.isEmpty()){
             level++;
