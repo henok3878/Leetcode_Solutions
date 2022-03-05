@@ -19,19 +19,15 @@ class Solution {
         List<Integer> ans = new ArrayList<>();
         if(root == null) return ans;
         
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        
-        while(!queue.isEmpty()){
-            int size = queue.size();
-            for(int i = 0; i < size; i++){
-                TreeNode curr = queue.poll();
-                if(curr.left != null) queue.add(curr.left);
-                if(curr.right != null) queue.add(curr.right);
-                if(i == size - 1) ans.add(curr.val);
-            }
-        }
+        dfs(root,ans,0);
         return ans;
+    }
+    
+    private void dfs(TreeNode root, List<Integer> ans, int h){
+        if(root == null) return;
+        if(ans.size() == h) ans.add(root.val);
+        dfs(root.right, ans,h + 1);
+        dfs(root.left, ans, h+1);
     }
 }
 
