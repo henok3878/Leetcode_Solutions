@@ -28,13 +28,10 @@ class Solution {
                     int w = weight + adj.price;
                     if (w < minDist[city]) {
                         minDist[city] = w;
-                        // adj.city = city;
-                        // adj.price = w;
-                        // q.add(adj);
+                        if(city == dst) continue;
                         q.add(new Node(city, w));
                     }
                 }
-
 			}
 			count++;
 		}
