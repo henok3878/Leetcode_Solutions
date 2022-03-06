@@ -30,12 +30,9 @@ class Solution {
                         queue.add(adj);
                         visited.add(adj);
                     }
-                }
-                
+                }  
             }
             dist++;
-                    
-
 
         }
         
