@@ -19,7 +19,7 @@ class Solution {
         int dist = 0;
         while(!queue.isEmpty()){
             if(dist == k){
-                ans = new ArrayList(queue);
+                ans.addAll(queue);
                 break;
             }
             int size = queue.size();
