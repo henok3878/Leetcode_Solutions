@@ -29,10 +29,9 @@ class Letter{
     Letter(char c , int freq){
         this.c = c; this.freq = freq;
     }
-    public String toString(){return "(" + c + "," + freq +")";}
 }
 /*
 st: 8:46
-
+sub: 9:19 
 
 */
