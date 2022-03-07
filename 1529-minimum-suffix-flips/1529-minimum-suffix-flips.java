@@ -1,19 +1,13 @@
 class Solution {
     public int minFlips(String target) {
         int n = target.length();
-        char[] init = new char[n];
-        Arrays.fill(init,'0');
         
+        char init = '0';
         int flips = 0;
         boolean isFliped = false;
         for(int i = 0; i < n; i++){
-            if(isFliped){
-                if(target.charAt(i) == init[i]){
-                    flips++;
-                    isFliped = false;
-                }
-            }else if(target.charAt(i) != init[i]){
-                isFliped = true;
+            if((isFliped && init == target.charAt(i)) || (!isFliped && init != target.charAt(i))){
+                isFliped = !isFliped;
                 flips++;
             }
         }
