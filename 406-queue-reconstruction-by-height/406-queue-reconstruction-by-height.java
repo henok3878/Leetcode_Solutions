@@ -10,11 +10,6 @@ class Solution {
             temp.add(idx,new int[]{person[0],person[1]});
         }
         
-        int[][] ans = new int[m][n];
-        int idx = 0;
-        for(int[] item : temp)
-            ans[idx++] = item;
-        
-        return ans;   
+        return temp.toArray(new int[m][n]);
     }
 }
