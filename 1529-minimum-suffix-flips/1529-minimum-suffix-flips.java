@@ -24,6 +24,7 @@ class Solution {
 /*
 st: 3:45 
 
+sub: 4:09
 
 target: 10111
 init  : 00000   
