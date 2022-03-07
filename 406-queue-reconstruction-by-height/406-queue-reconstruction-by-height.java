@@ -3,7 +3,7 @@ class Solution {
         int m = people.length, n = people[0].length;
         
         Arrays.sort(people,(a,b) -> (b[0] == a[0]) ? a[1] - b[1] : b[0] - a[0]);
-        List<List<Integer>> temp = new LinkedList<>();
+        List<List<Integer>> temp = new ArrayList<>();
         
         for(int[] person : people){
             int idx = person[1];
