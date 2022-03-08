@@ -37,14 +37,4 @@ class Solution {
 /*
 st: 3:37 
 
-        
-        while (r > 0 && d > 0) {
-       
-        }
-        
-        return d == 0 ? "Radiant" : "Dire";
-
-"RDR"
- |
-
 */
