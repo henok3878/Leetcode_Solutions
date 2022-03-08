@@ -4,10 +4,14 @@ class Solution {
         Stack<int[]> stack = new Stack<>();
         
         for(int[] ival : intervals){
-            if(stack.isEmpty() || ival[0] >= stack.peek()[1]) stack.push(ival);
-            else if(ival[0] < stack.peek()[1] && stack.peek()[1] > ival[1]){
-                stack.pop();
-                stack.push(ival);
+            if(stack.isEmpty()) stack.push(ival);
+            else{
+                int[] top = stack.peek();
+                if(ival[0] < top[1] && top[1] > ival[1]){
+                        stack.pop();
+                        stack.push(ival);
+                }
+                else if(ival[0] >= top[1]) stack.push(ival);
             }
         }
         return intervals.length - stack.size();
@@ -16,5 +20,8 @@ class Solution {
 }
 
 /*
+st: 9:29
+
+
 
 */
