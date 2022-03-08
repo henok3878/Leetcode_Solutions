@@ -21,7 +21,6 @@ class Solution {
     public int countPairs(TreeNode root, int distance) {
         
         build(root,null);
-        //for(TreeNode l : leafs) System.out.println(l.val);
         int count = 0;
         for(TreeNode leaf : leafs){
             
@@ -69,12 +68,3 @@ class Solution {
             leafs.add(root);
     }    
 }
-
-
-/*
-st: 4:37 
-    
-    Let assume I have a helper function : bool isLeaf(N)
-
-
-*/
