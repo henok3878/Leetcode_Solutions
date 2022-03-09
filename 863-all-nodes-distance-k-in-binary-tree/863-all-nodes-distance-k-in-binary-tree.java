@@ -18,19 +18,17 @@ class Solution {
         queue.add(target.val);
         int dist = 0;
         while(!queue.isEmpty()){
-            if(dist == k){
-                ans.addAll(queue);
-                break;
-            }
             int size = queue.size();
             for(int i = 0; i < size; i++){
                 int curr = queue.poll();
+                if(dist == k) ans.add(curr);
                 for(int adj : graph.get(curr)){
                     if(!visited.contains(adj)){
                         queue.add(adj);
                         visited.add(adj);
                     }
-                }  
+                }
+                
             }
             dist++;
 
