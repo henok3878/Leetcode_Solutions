@@ -1,6 +1,6 @@
 class Solution {
     public int maximumSwap(int num) {
-        
+        int temp = num;
         String s = num + "";
         int size = s.length();
         int[] nums = new int[size];
@@ -14,8 +14,7 @@ class Solution {
         for(int i = 0; i < nums.length; i++){
             ids[nums[i]] = i;
         }
-        //System.out.println(Arrays.toString(nums));
-        //System.out.println(Arrays.toString(ids));
+
         boolean isFound = false;
         for(int i = 0; i < size; i++){
             int curr = nums[i];
@@ -26,18 +25,16 @@ class Solution {
                     nums[ids[dig]] = curr;
                     nums[i] = dig;
                     isFound = true;
-                    break;
                 }
-                else{
-                    if(dig == curr && ids[curr] == i){
-                        ids[curr] = -1;
-                    }
-                    break;
+                else if(dig == curr && ids[curr] == i){
+                    ids[curr] = -1;
                 }
+                break;
+                
             }
             if(isFound) break;
         }
-        
+        if(!isFound) return temp;
         StringBuilder sb = new StringBuilder();
         for(int n  : nums) sb.append(n);
         return Integer.parseInt(sb.toString());
