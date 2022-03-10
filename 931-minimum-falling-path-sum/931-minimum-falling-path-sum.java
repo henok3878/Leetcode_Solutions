@@ -9,10 +9,8 @@ class Solution {
                 int t = (i-1 < 0) ? 0 : matrix[i-1][j];
         
                 matrix[i][j] += Math.min(Math.min(ld, rd), t);
-        
             }
         }
-    
         
         int ans = Integer.MAX_VALUE;
         for(int num : matrix[m-1]) ans = Math.min(ans,num);
