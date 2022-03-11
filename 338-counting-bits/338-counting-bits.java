@@ -13,9 +13,7 @@ class Solution {
         else if(n == 1) return 1;
         else if(ans[n] != -1) return ans[n];
         
-        int res = (n %2 == 0) ? helper(n/2,ans) : 1 + helper(n/2,ans);
-        ans[n] =res;
-        return res;
+        return ans[n] = (n %2 == 0) ? helper(n/2,ans) : 1 + helper(n/2,ans);
     }
 }
 
