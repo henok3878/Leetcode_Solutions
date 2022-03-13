@@ -5,22 +5,11 @@ class Solution {
         
         for(int c : coins){
           for(int i = 1; i <= amount; i++){
-              int comp = (i - c < 0) ? 0 : ways[i-c];
-              ways[i] += comp;
+              if (i - c < 0) continue;
+              ways[i] +=  ways[i-c];
           } 
         }
         
         return ways[amount];
     }
 }
-
-/*
-coins = [1,2,5] 
-amt: 5
-    - 1 + 1 + 1 + 1 + 1
-    - 1 + 1 + 1 + 2
-    - 1 + 2 + 2 
-    - 5
-
-
-*/
