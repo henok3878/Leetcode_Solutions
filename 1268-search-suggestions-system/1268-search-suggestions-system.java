@@ -38,7 +38,6 @@ class Solution {
                 recommend(node.children[i],ans, soFar);   
                 soFar.deleteCharAt(soFar.length() - 1);
             }
-            
            
         }
     }
