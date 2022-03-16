@@ -31,6 +31,6 @@ class Solution {
 Time Complexity: O(q*l), where: q is num of queries    
                               : l is max length of a query in queries 
                     
-
+Space Complexity: O(q)
 
 */
