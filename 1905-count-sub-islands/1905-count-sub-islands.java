@@ -17,7 +17,9 @@ class Solution {
         
         int count = 0;
         for(List<int[]> island : grid2Islands){
-            if(dfs2(0,island,grid1)) count ++;
+            if(dfs2(0,island,grid1)){
+                count++;
+            }
         }
         
         return count;
