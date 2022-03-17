@@ -47,5 +47,5 @@ class Solution {
                         = O(M*N)
                         
 Optimization: 
-    - Remove 2nd step (traversal) 
+    - Remove 2nd traversal 
 */
