@@ -46,5 +46,11 @@ class Solution {
 1st Approch: 
     - Find islands in grid2 (including their path)
     - Check if each island in a grid2 is included in grid1 (check using their path)
-
+    
+    Node = M*N
+    Edges = 4*M*N
+    
+    traversing the grid = O(Node + Edges)
+                        = O(M*N + M*N)
+                        = O(M*N)
 */
