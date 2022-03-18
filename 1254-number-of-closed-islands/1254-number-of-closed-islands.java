@@ -31,7 +31,7 @@ class Solution {
 }
 
 /*
-    1st Approch: DFSS 
+    1st Approch: DFS
         - for every land, do a dfs 
             if(out of bound) return false;
             else if(grid[i][j] == 1) return true;
@@ -40,19 +40,9 @@ class Solution {
                     // do dfs
                     if(!dfs()) return false;
                 return true;
-        
-
-[0,0,1,1,0,1,0,0,1,0],
-[1,1,0,1,1,0,1,1,1,0],
-[1,0,1,1,1,0,0,1,1,0],
-[0,1,1,0,0,0,0,1,0,1],
-[0,0,0,0,0,0,1,1,1,0],
-[0,1,0,1,0,1,0,1,1,1],
-[1,0,1,0,1,1,0,0,0,1],
-[1,1,1,1,1,1,0,0,0,0],
-[1,1,1,0,0,1,0,1,0,1],
-[1,1,1,0,1,1,0,1,1,0]]
-
+        - Time Complexity: O(nodes + dges)
+                        = nodes = N*M, edges = 4*N*M
+                        = nodes + edges = (N*M) + (4*N*M) ~ O (N*M)
 
 
 */
