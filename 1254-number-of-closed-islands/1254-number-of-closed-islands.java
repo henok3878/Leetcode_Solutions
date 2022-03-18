@@ -30,19 +30,3 @@ class Solution {
     } 
 }
 
-/*
-    1st Approch: DFS
-        - for every land, do a dfs 
-            if(out of bound) return false;
-            else if(grid[i][j] == 1) return true;
-            else 
-                for(each adj cell)
-                    // do dfs
-                    if(!dfs()) return false;
-                return true;
-        - Time Complexity: O(nodes + dges)
-                        = nodes = N*M, edges = 4*N*M
-                        = nodes + edges = (N*M) + (4*N*M) ~ O (N*M)
-
-
-*/
