@@ -11,8 +11,10 @@ class Solution {
               int[] stone1 = stones[i];
               int[] stone2 = stones[j];
                
-              if(stone1[0] == stone2[0] || stone1[1] == stone2[1])
+              if(stone1[0] == stone2[0] || stone1[1] == stone2[1]){
                   ans += uf.union(i,j);
+              }
+               
            }
        }
         
@@ -58,4 +60,7 @@ class UnionFind{
         
         return 1;
     }
+    
+    
+    
 }
