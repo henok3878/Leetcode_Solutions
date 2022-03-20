@@ -19,8 +19,7 @@ class Solution {
         if(currX < 0 || currY < 0 || currX >= grid.length || currY >= grid[0].length || grid[parX][parY] != grid[currX][currY])
             return false;
         
-        if(visited[currX][currY] && grid[currX][currY] == grid[parX][parY]) return true;
-        else if(visited[currX][currY]) return false;
+        if(visited[currX][currY]) return grid[currX][currY] == grid[parX][parY];
         
         visited[currX][currY] = true;
         
