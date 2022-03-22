@@ -15,7 +15,7 @@ class Solution {
     private boolean dfs(int n,int p, int[] colors, int[][] graph){
         if(colors[n] != 0) return colors[p] != colors[n];
 
-        colors[n] = -1 * colors[p]; // mark visited and also color the node
+        colors[n] = -1 * colors[p]; 
         for(int adj : graph[n])
             if(!dfs(adj,n,colors,graph)) return false;
         return true;
