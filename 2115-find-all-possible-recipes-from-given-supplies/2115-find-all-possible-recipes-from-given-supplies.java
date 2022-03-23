@@ -20,11 +20,10 @@ class Solution {
         if(supplies.contains(recipe)) return true;
         else if(isPossible.containsKey(recipe)) return isPossible.get(recipe);
         else if(!ingredients.containsKey(recipe)) return false;
-        List<String> ings = ingredients.get(recipe);
+
         isPossible.put(recipe,false);
-        for(String ing : ings){
+        for(String ing : ingredients.get(recipe)){
             if(!isRecipePossible(ing,isPossible,ingredients,supplies)){
-                //isPossible.put(ing,false);
                 return false;
             }
         }
