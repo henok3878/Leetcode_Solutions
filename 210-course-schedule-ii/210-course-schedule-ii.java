@@ -9,16 +9,16 @@ class Solution {
         }
         Boolean[] visited = new Boolean[numCourses];
         
-        List<Integer> ans = new LinkedList<>();
+        List<Integer> tempAns = new LinkedList<>();
         
         for(int i = 0; i < numCourses; i++)
-            if(!dfs(i,visited,ans,graph)) 
+            if(!dfs(i,visited,tempAns,graph)) 
                 return new int[]{};
         
-        return ans.stream()
-                  .mapToInt(i -> (i == null ? 0 : i))
-                  .toArray();
+        int[] ans = new int[numCourses];
+        for(int i = 0; i < numCourses; i++) ans[i] = tempAns.get(i);
         
+        return ans;
     }
     
     private boolean dfs(int i,Boolean[] visited, List<Integer> ans, Map<Integer,List<Integer>> graph){
