@@ -24,7 +24,7 @@ class Solution {
         isPossible.put(recipe,false);
         for(String ing : ings){
             if(!isRecipePossible(ing,isPossible,ingredients,supplies)){
-                isPossible.put(ing,false);
+                //isPossible.put(ing,false);
                 return false;
             }
         }
