@@ -1,8 +1,8 @@
 class Solution {
     public int minimumTime(int n, int[][] relations, int[] time) {
         
-        boolean[] visited = new boolean[n+1];
         int[] timeNeeded = new int[n+1];
+        Arrays.fill(timeNeeded,-1);
         
         Map<Integer,List<Integer>> graph = new HashMap<>();
         
@@ -17,20 +17,19 @@ class Solution {
         int ans = Integer.MIN_VALUE;
         for(int i = 1; i<= n; i++){
             
-            ans = Math.max(ans,dfs(i,visited,timeNeeded,time,graph));
+            ans = Math.max(ans,dfs(i,timeNeeded,time,graph));
         }
         
         return ans;
     
     }
     
-    private int dfs(int i,boolean[] visited,int[] timeNeeded,int[] time, Map<Integer,List<Integer>> graph){
-        if(visited[i]) return timeNeeded[i];
-        else if(graph.get(i).size() == 0) return time[i-1];
-        visited[i] = true;
+    private int dfs(int i,int[] timeNeeded,int[] time, Map<Integer,List<Integer>> graph){
+        if(timeNeeded[i] != -1) return timeNeeded[i];
+        else if(graph.get(i).size() == 0) return timeNeeded[i] = time[i-1];
         int max = Integer.MIN_VALUE;
         for(int adj : graph.get(i)){
-            max = Math.max(max,dfs(adj,visited,timeNeeded,time,graph));
+            max = Math.max(max,dfs(adj,timeNeeded,time,graph));
         }
         
         return timeNeeded[i] = time[i - 1] + max;
