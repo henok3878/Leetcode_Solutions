@@ -17,7 +17,6 @@ class Solution {
         }
         
         Map<Integer,Set<Integer>> graph = new HashMap<>();
-        int[] indegree = new int[62];
         
         for(int color : colors.keySet()){
             Color currColor = colors.get(color);
@@ -27,7 +26,6 @@ class Solution {
                     if(targetGrid[i][j] != color){
                         if(!overlaps.contains(targetGrid[i][j])){
                            overlaps.add(targetGrid[i][j]); 
-                           indegree[targetGrid[i][j]]++; 
                         }
     
                     }
@@ -37,21 +35,25 @@ class Solution {
 
         }
         
-        Queue<Integer> queue = new LinkedList<>();
-        int visited = 0;
-        for(int i = 0; i < indegree.length; i++) if(indegree[i] == 0 && colors.containsKey(i)) queue.add(i);
+        Boolean[] visited = new Boolean[62];
         
-        while(!queue.isEmpty()){
-            int curr = queue.poll();
-            visited++;
-            for(int adj : graph.get(curr)){
-                if(--indegree[adj] == 0){
-                    queue.add(adj);
-                }
-            }
+        for(int color : colors.keySet()){
+            if(visited[color] == null && !dfs(color,visited,graph)) return false;
         }
-                           
-        return visited == colors.keySet().size();
+        
+        return true;
+  
+    }
+    
+    private boolean dfs(int color, Boolean[] visited, Map<Integer,Set<Integer>> graph){
+        if(visited[color] != null) return visited[color];
+        
+        visited[color] = false;
+        for(int adj : graph.get(color)){
+            if(!dfs(adj,visited,graph))
+                return false;
+        }
+        return visited[color] = true;
     }
 }
 
