@@ -31,7 +31,6 @@ class Solution {
         }
         int[] dp = new int[n+1];
         Arrays.fill(dp,-1);
-        Arrays.fill(visited,false);
         return dfs(1,n,visited,graph,shortestDist,dp) % MOD;
         
     }
@@ -42,16 +41,13 @@ class Solution {
             return 1;
         }
         else if(dp[i]  != -1) return dp[i];
-        
-        visited[i] = true;
         int ans = 0;
         for(int[] adj : graph.get(i)){
-            if(!visited[adj[0]] && shortest[adj[0]] < shortest[i]){
-                ans += (dfs(adj[0],n,visited,graph,shortest,dp) % MOD);
+            if(shortest[adj[0]] < shortest[i]){
+                ans += dfs(adj[0],n,visited,graph,shortest,dp);
                 ans %= MOD;
             }
         }
-        visited[i] = false;
         return dp[i] = ans;
     }
 }
