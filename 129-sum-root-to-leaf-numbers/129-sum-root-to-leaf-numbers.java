@@ -17,16 +17,16 @@ class Solution {
     int sum = 0;
     public int sumNumbers(TreeNode root) {
         if(root == null) return 0;
-        dfs(root,"");
+        dfs(root,0);
         return sum;
     }
     
-    private void dfs(TreeNode node, String path){
+    private void dfs(TreeNode node, int path){
         if(node.left == null && node.right == null)
-            sum += Integer.parseInt(path + node.val);
+            sum += (path * 10) + node.val;
         else{
-            if(node.left != null) dfs(node.left,path + node.val);
-            if(node.right != null) dfs(node.right, path + node.val);
+            if(node.left != null) dfs(node.left,(path * 10) + node.val);
+            if(node.right != null) dfs(node.right, (path * 10) + node.val);
         }
     }
 }
