@@ -11,22 +11,22 @@ class Solution {
         }
         
         double[] dist = new double[n];
-        dist[end] = 1;
+        dist[start] = 1;
         
         Queue<double[]> pq = new PriorityQueue<double[]>((a,b)->Double.compare(b[1],a[1]));
-        pq.add(new double[]{end,1.0});
+        pq.add(new double[]{start,1.0});
         
         while(!pq.isEmpty()){
             double[] curr = pq.poll();
-            double node = curr[0];
+            int node = (int)curr[0];
             double w = curr[1];
-            for(double[] adj : graph.get((int)node)){
+            for(double[] adj : graph.get(node)){
                 if(dist[(int)adj[0]] < w * adj[1]){
                     dist[(int)adj[0]] = w * adj[1];
                     pq.add(new double[]{adj[0], dist[(int)adj[0]]});
                 }
             }
         }
-        return dist[start];
+        return dist[end];
     }
 }
