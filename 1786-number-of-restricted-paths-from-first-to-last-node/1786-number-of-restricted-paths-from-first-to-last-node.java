@@ -31,12 +31,12 @@ class Solution {
         }
         int[] dp = new int[n+1];
         Arrays.fill(dp,-1);
-        return dfs(1,n,visited,graph,shortestDist,dp) % MOD;
+        return dfs(1,n,graph,shortestDist,dp) % MOD;
         
     }
     
     
-    private int dfs(int i,int n, boolean[] visited, List<List<int[]>> graph,int[] shortest,int[] dp){
+    private int dfs(int i,int n,List<List<int[]>> graph,int[] shortest,int[] dp){
         if(i == n){
             return 1;
         }
@@ -44,7 +44,7 @@ class Solution {
         int ans = 0;
         for(int[] adj : graph.get(i)){
             if(shortest[adj[0]] < shortest[i]){
-                ans += dfs(adj[0],n,visited,graph,shortest,dp);
+                ans += dfs(adj[0],n,graph,shortest,dp);
                 ans %= MOD;
             }
         }
