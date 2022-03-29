@@ -12,9 +12,7 @@ class Solution {
          for(int i = 0;i < nums.length; i++){
             ans[i] = temp[i].num;
         }
-        
-        System.out.println(Arrays.toString(ans));
-        
+                
         return ans;
         
     }
