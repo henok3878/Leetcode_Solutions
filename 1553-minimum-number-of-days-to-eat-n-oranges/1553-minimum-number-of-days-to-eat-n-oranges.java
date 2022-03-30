@@ -17,9 +17,10 @@ class Solution {
                     visited.add(curr/2);
                     q.add(curr/2);
                 }
-                if(curr % 3 == 0 && !visited.contains(curr/3)){
-                    visited.add(curr/3);
-                    q.add(curr/3);
+                int t = curr - (2*(curr/3));
+                if(curr % 3 == 0 && !visited.contains(t)){
+                    visited.add(t);
+                    q.add(t);
                 }
                 if(!visited.contains(curr - 1))
                 {q.add(curr-1); visited.add(curr-1);}
