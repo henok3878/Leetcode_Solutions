@@ -20,10 +20,8 @@ class Solution {
             if(sq % curr == 0.0){
                 int comp = (int)(sq / curr);
                 if(visited.containsKey(comp)) count += visited.get(comp);
-
             }
-            int prev = visited.getOrDefault(curr,0) + 1;
-            visited.put(curr,prev);
+            visited.put(curr,visited.getOrDefault(curr,0) + 1);
         }
         return count;
     }
