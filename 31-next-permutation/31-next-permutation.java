@@ -10,8 +10,7 @@ class Solution {
                 break;
             }
         }
-        if(idx == -1)  reverse(nums,0);     
-        else{
+        if(idx != -1){
             int minIdx = -1;
             int min = Integer.MAX_VALUE;
 
@@ -23,9 +22,9 @@ class Solution {
             }
             if(idx != -1 && minIdx != -1){
                 swap(nums,idx,minIdx);
-            }
-            reverse(nums,idx+1);    
+            } 
         }
+        reverse(nums,idx+1);   
     }
     
     private void reverse(int[] nums, int idx){
