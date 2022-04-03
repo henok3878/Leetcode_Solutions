@@ -12,17 +12,11 @@ class Solution {
         }
         if(idx != -1){
             int minIdx = -1;
-            int min = Integer.MAX_VALUE;
-
             for(int j = idx + 1; j < n;j++){
-                if(nums[j] > nums[idx] && min >= nums[j]){
+                if(nums[j] > nums[idx]) 
                     minIdx = j;
-                    min = nums[j];
-                }
             }
-            if(idx != -1 && minIdx != -1){
-                swap(nums,idx,minIdx);
-            } 
+            swap(nums,idx,minIdx);
         }
         reverse(nums,idx+1);   
     }
