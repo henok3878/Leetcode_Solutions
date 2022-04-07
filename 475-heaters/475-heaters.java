@@ -1,6 +1,6 @@
 class Solution {
     public int findRadius(int[] houses, int[] heaters) {
-        //Arrays.sort(houses);
+        Arrays.sort(houses);
         Arrays.sort(heaters);
         int htrs = heaters.length;
         int ans = Integer.MIN_VALUE;
@@ -8,7 +8,7 @@ class Solution {
         int prev = 0;
         for(int i = 0; i < houses.length; i++){
             int near = find(prev,houses[i],heaters);
-            //prev = near;
+            prev = near;
             //System.out.println("h: " + houses[i]  + " , near: " + near);
             int curr = -1;
             if(near < 0){
