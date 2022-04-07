@@ -5,8 +5,10 @@ class Solution {
         int htrs = heaters.length;
         int ans = Integer.MIN_VALUE;
         
+        int prev = 0;
         for(int i = 0; i < houses.length; i++){
-            int near = find(0,houses[i],heaters);
+            int near = find(prev,houses[i],heaters);
+            prev = near;
             //System.out.println("h: " + houses[i]  + " , near: " + near);
             int curr = -1;
             if(near < 0){
