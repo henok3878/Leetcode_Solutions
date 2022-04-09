@@ -1,42 +1,37 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
+        int[] indegree = new int[numCourses];
+        List<List<Integer>> graph = new ArrayList<>();
+        for(int i = 0;i < numCourses; i++)
+            graph.add(new ArrayList<>());
         
-        Map<Integer,List<Integer>> graph = new HashMap<>();
-        Boolean[] visited = new Boolean[numCourses];
-        for(int i = 0; i < numCourses; i++) graph.put(i,new ArrayList<>());
-        
-        for(int [] pair : prerequisites)
-            graph.get(pair[1]).add(pair[0]);
-        
-        for(int i = 0; i < numCourses; i++)
-            if(visited[i] == null && !canFinishHelper(i,visited,graph))
-                return false;
-        
-        return true;
-        
-    }
-    
-    private boolean canFinishHelper(int i,Boolean[] visited, Map<Integer,List<Integer>> graph){
-        if(visited[i] != null) return visited[i];
-        visited[i] = false;
-        for(int adj : graph.get(i)){
-            if(!canFinishHelper(adj,visited,graph))
-                return false;
+        for(int[] pre : prerequisites){
+            int u  = pre[0] , v = pre[1];
+            graph.get(v).add(u);
+            indegree[u]++;
         }
-        return visited[i] = true;
+        int count = 0;
+        Queue<Integer> q = new LinkedList<>();
+        for(int i = 0; i < numCourses; i++){
+             if(indegree[i] == 0) 
+                q.add(i);
+        }
+           
+        while(!q.isEmpty()){
+            int curr = q.poll();
+            count++;
+            for(int adj : graph.get(curr)){
+                if(--indegree[adj] == 0)
+                    q.add(adj);
+            }
+        }
+        
+        return count == numCourses;
     }
-    
 }
 
 /*
-    if the path already visited-> return true
-    else if the path is in the current path -> return false
-    //add this node to current path
-    visted[curr] = false;
-    for each adj of curr node 
-        if(!explore(adj)) return false
-    return visited[curr] = true;
-    
-    
+
+prereq[i] = [ai,bi] : bi -> ai
 
 */
