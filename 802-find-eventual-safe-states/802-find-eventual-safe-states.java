@@ -1,31 +1,32 @@
 class Solution {
+    
+    int VISITED = 2, VISITING = 1, NOT_VISITED = 0;
+    
     public List<Integer> eventualSafeNodes(int[][] graph) {
+        int n = graph.length;
+        
+        int[] visited = new int[n];
         List<Integer> ans = new ArrayList<>();
-        boolean[] res = new boolean[graph.length];
-        Set<Integer> visited = new HashSet<>();
-        for(int i = 0; i < graph.length; i++){
-            if(dfs(i,visited,graph,res)) ans.add(i);   
+        
+        for(int i = 0; i < n; i++){
+            if(dfs(i,visited,ans,graph)){
+                ans.add(i);
+            }  
         }
+        
         return ans;
+        
     }
     
-    
-    private boolean dfs(int node, Set<Integer> visited, int[][] graph,boolean[] res){
-        if(visited.contains(node)) return res[node];
-        int[] adjs = graph[node];
-        visited.add(node);
-        if(adjs.length == 0) {res[node] = true; return true;}
-        for(int adj : adjs){
-            if(!dfs(adj,visited,graph,res)) return false;
+    private boolean dfs(int n, int[] visited, List<Integer> ans,int[][] graph){
+        if(visited[n] != NOT_VISITED)
+            return visited[n] == VISITED;
+        visited[n] = VISITING;
+        for(int adj : graph[n]){
+            if(!dfs(adj,visited,ans,graph))
+                return false;
         }
-        res[node] = true;
+        visited[n] = VISITED;
         return true;
     }
 }
-
-/*
-st: 12:15
-
-sub: 12:39
-    -> wrong ans 
-*/
