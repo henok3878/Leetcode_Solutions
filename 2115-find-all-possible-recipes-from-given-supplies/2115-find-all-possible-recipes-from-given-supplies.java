@@ -1,34 +1,55 @@
 class Solution {
     public List<String> findAllRecipes(String[] recipes, List<List<String>> ingredients, String[] supplies) {
-     
-        Set<String> supp = new HashSet<String>(Arrays.asList(supplies));
-        Map<String,Boolean> isPossible = new HashMap<>();
-        List<String> ans = new ArrayList<>();
-        Map<String,List<String>> graph = new HashMap<>();
-        for(int i = 0; i < recipes.length; i++){
-            graph.put(recipes[i],ingredients.get(i));
+        
+        Map<String,Integer> idx = new HashMap<>();
+        Set<String> sups = new HashSet<>();
+        Set<String> recps = new HashSet<>();
+    
+        for(int i =0; i < recipes.length; i++){
+            idx.put(recipes[i],i);
+            recps.add(recipes[i]);
         }
-        for(int i = 0; i < recipes.length; i++){
-                if(isRecipePossible(recipes[i],isPossible,graph,supp))
-                    ans.add(recipes[i]);
+        for(int i = 0; i < supplies.length; i++){
+            sups.add(supplies[i]);
+        }
+        
+        List<String> ans = new ArrayList<>();
+        for(String rec : recipes){
+            if(isPos(rec,sups,recps,ingredients,idx, new HashSet<String>())){
+                ans.add(rec);
+            }
         }
         
         return ans;
     }
     
-    private boolean isRecipePossible(String recipe, Map<String,Boolean> isPossible,Map<String,List<String>> ingredients, Set<String> supplies){
-        if(supplies.contains(recipe)) return true;
-        else if(isPossible.containsKey(recipe)) return isPossible.get(recipe);
-        else if(!ingredients.containsKey(recipe)) return false;
-
-        isPossible.put(recipe,false);
-        for(String ing : ingredients.get(recipe)){
-            if(!isRecipePossible(ing,isPossible,ingredients,supplies)){
-                return false;
-            }
-        }
+    private boolean isPos(String rec, Set<String> sup, Set<String> recipes, List<List<String>> ing, Map<String,Integer> idx, Set<String> v){
+        if(!sup.contains(rec) && !recipes.contains(rec))
+            return false;
+        if(sup.contains(rec))
+            return true;
+        else if(v.contains(rec))
+            return false;
+        v.add(rec);
         
-        isPossible.put(recipe,true);
+        for(String in : ing.get(idx.get(rec))){
+            if(!isPos(in,sup,recipes,ing,idx,v))
+                return false;
+        }
+        v.remove(rec);
         return true;
     }
 }
+
+/*
+Input:
+recipes = ["bread"], 
+ingredients = [["yeast","flour"]], 
+supplies = ["yeast","flour","corn"]
+Output: ["bread"]
+Explanation:
+We can create "bread" since we have the ingredients "yeast" and "flour".
+
+
+
+*/
