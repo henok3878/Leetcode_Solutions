@@ -17,6 +17,7 @@ class Solution {
         for(String rec : recipes){
             if(isPos(rec,sups,recps,ingredients,idx, new HashSet<String>())){
                 ans.add(rec);
+                sups.add(rec);
             }
         }
         
