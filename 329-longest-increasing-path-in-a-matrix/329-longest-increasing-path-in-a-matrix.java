@@ -13,7 +13,7 @@ class Solution {
             }
         }
         
-        return max + 1;
+        return max;
     }
     
     private int dfs(int i, int j, int[][] v, int[][] matrix){
@@ -21,7 +21,7 @@ class Solution {
             return 0;
         if(v[i][j] != 0)
             return v[i][j];
-        int res = 0;
+        int res = 1;
         for(int[] dir : directions){
             int x = i + dir[0], y = j + dir[1];
             if(!outBound(x,y,matrix.length,matrix[0].length) && matrix[i][j] < matrix[x][y])
