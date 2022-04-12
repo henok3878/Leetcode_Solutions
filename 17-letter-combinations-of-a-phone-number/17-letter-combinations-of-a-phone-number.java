@@ -36,14 +36,7 @@ class Solution {
 }
 
 /*
-Input: digits = "23"
-Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
-
-
-goal: reach the end
-state: dig at specific idx 
-
-
-
+Time Complexity: num of recurssive calls 4^N and each base case copies String to the ans which O(N)
+    so total will be : O(4^N*N)
 
 */
