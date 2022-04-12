@@ -11,17 +11,18 @@ class Solution {
             ans.add(sb.toString());
             return;
         }
+        if(o < n){
+            sb.append("(");
+            helper(n,o+1,c,ans,sb);
+            sb.deleteCharAt(sb.length() - 1);
+        }
         if(o > c){
             sb.append(")");
             helper(n,o,c+1,ans,sb);
             sb.deleteCharAt(sb.length() - 1);
 
         }
-        if(o < n){
-            sb.append("(");
-            helper(n,o+1,c,ans,sb);
-            sb.deleteCharAt(sb.length() - 1);
-        }
+        
     }
 }
 
