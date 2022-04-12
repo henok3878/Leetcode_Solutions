@@ -7,7 +7,7 @@ class Solution {
         if(idx >= s.length())
             return 0;
         
-        int res = Integer.MIN_VALUE;
+        int res = -1;
         // for loop simulate decision spaces
         for(int end = idx + 1; end <= s.length(); end++){
             
