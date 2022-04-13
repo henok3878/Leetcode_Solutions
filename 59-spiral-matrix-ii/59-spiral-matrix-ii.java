@@ -8,8 +8,6 @@ class Solution {
     }
     
     private void helper(int offset, int n,int st, int[][] grid){
-        //print(grid);
-
         // base case 
         if(n == 0)
             return;
@@ -32,10 +30,5 @@ class Solution {
         }
         
         helper(offset+1,n - 2, st, grid);
-    }
-    private void print(int[][] g){
-        for(int [] r : g){
-            System.out.println(Arrays.toString(r));
-        }
     }
 }
