@@ -1,26 +1,28 @@
 class Solution {
-    public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
-       
-        Map<Integer,List<Integer>> graph = new HashMap<>();
-        for(int i = 0; i < numCourses; i++) graph.put(i, new ArrayList<>());
-        
+    public List<Boolean> checkIfPrerequisite(int n, int[][] prerequisites, int[][] queries) {
+        List<List<Integer>> graph = new ArrayList<>();
+        List<Set<Integer>> prereqs = new ArrayList<>();
+
+        for(int i = 0; i < n; i++){
+            graph.add(new ArrayList<>());
+            prereqs.add(new HashSet<>());
+        }
         for(int[] pair : prerequisites){
             graph.get(pair[0]).add(pair[1]);
         }
         
-        Map<Integer,Set<Integer>> preqs = new HashMap<>();
-        
-        for(int c = 0; c < numCourses; c++){
-            if(preqs.get(c) == null){
-                dfs(c,preqs,graph);
-            }
+        //System.out.println(graph);
+        for(int i = 0;i  < n; i++){
+            dfs(i,graph,prereqs);
         }
         
+        //System.out.println(prereqs);
+        
         List<Boolean> ans = new ArrayList<>();
-
-        for(int[] query: queries){
-            Set<Integer> nextCourses = preqs.get(query[0]);
-            if(nextCourses != null && nextCourses.contains(query[1]))
+                
+        for(int i = 0; i < queries.length; i++){
+            int[] q = queries[i];
+            if(prereqs.get(q[0]).contains(q[1]))
                 ans.add(true);
             else ans.add(false);
         }
@@ -28,21 +30,16 @@ class Solution {
         return ans;
     }
     
-    private Set<Integer> dfs(int c, Map<Integer,Set<Integer>> preqs, Map<Integer,List<Integer>> graph){
-        
-        if(preqs.get(c) != null) return preqs.get(c);
-        
-        Set<Integer> set = new HashSet<>();
-        List<Integer> adjs = graph.get(c);
-        if(adjs.size() == 0) return set;
-        
-        for(int adj : adjs){
-            set.add(adj);
-            set.addAll(dfs(adj,preqs,graph));
+    private void dfs(int n, List<List<Integer>> graph, List<Set<Integer>> prereqs){
+        if(!prereqs.get(n).isEmpty()) return;
+        for(int adj : graph.get(n)){
+            prereqs.get(n).add(adj);
+            dfs(adj,graph,prereqs);
+            if(!prereqs.get(adj).isEmpty()){
+                prereqs.get(n).addAll(prereqs.get(adj));
+            }
         }
-        
-        preqs.put(c,set);
-        return set;
-        
     }
+    
+    
 }
