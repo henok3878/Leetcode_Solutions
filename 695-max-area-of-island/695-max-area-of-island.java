@@ -1,51 +1,65 @@
 class Solution {
-    
-    int[][] directions = new int[4][2];
-
+    int[][] dirs = {{0,0},{1,0},{-1,0},{0,1},{0,-1}}; 
     public int maxAreaOfIsland(int[][] grid) {
-        directions[0] = new int[]{-1,0}; directions[1] = new int[]{0,1};
-        directions[2] = new int[]{1,0}; directions[3] = new int[]{0,-1};
         
         int ans = 0;
-        Set<String> visited = new HashSet<>();
-        
-        for(int i = 0; i < grid.length; i++){
-            for(int j = 0; j < grid[0].length; j++){
-                if(grid[i][j] == 1 && !visited.contains(getKey(i,j))){
-                    ans = Math.max(ans,dfs(i,j,visited,grid));
+        int m = grid.length, n = grid[0].length;
+        UnionFind uf  = new UnionFind(m,n);
+        for(int i = 0;i < m; i++){
+            for(int j = 0;j < n;j ++){
+                for(int[] dir : dirs){
+                    int x = i + dir[0], y = j + dir[1];
+                    if(grid[i][j] == 1 && isInBound(x,y,m,n) && grid[x][y] == 1){
+                        ans = Math.max(ans,uf.union(i*n + j, x*n + y));  
+                    }
                 }
-                
             }
-        }
-        
+        }        
         return ans;
     }
     
-    private int dfs(int i , int j,Set<String> visited, int[][] grid){
-        String key = getKey(i,j);
-        if(grid[i][j] == 0 || visited.contains(key)) return 0;
-        
-        visited.add(key);
-        int ans = 1;
-        for(int[] dir : directions){
-            int x = i + dir[0], y = j + dir[1];
-            if(x < 0 || y < 0 || x >= grid.length || y >= grid[0].length) continue;
-            ans += dfs(x,y,visited,grid);
-            
-        }
-        return ans;
-        
+    private boolean isInBound(int i, int j, int r, int c){
+        if(i < 0 || j < 0 || i >= r || j >= c)
+            return false;
+        else return true;
     }
-    
-    String getKey(int i, int j){
-        return i +","+j;
-    }
-    
 }
 
-/*
-st: 3:38 
-1st test: 3:49 
-
-
-*/
+public class UnionFind{
+    
+    int[] parents;
+    int[] sizes;
+    
+    public UnionFind(int m, int n){
+        parents = new int[m*n];
+        sizes = new int[m*n];
+        for(int i = 0; i < m*n; i++){
+            parents[i] = i;
+            sizes[i] = 1;
+        }
+    }
+    
+    public int find(int el){
+        if(parents[el] == el) 
+            return el;
+        return parents[el] = find(parents[el]);
+    }
+    
+    public int union(int el1, int el2){
+        int p1 = find(el1);
+        int p2 = find(el2);
+        
+        if(p1 == p2) 
+            return sizes[p1];
+        if(sizes[p1] > sizes[p2]){
+            parents[p2] = p1;
+            return sizes[p1] += sizes[p2];
+            
+        }else{
+            parents[p1] = p2;
+            return sizes[p2] += sizes[p1];
+        }
+    }
+    
+    
+}
