@@ -24,9 +24,8 @@ class Solution {
     private int helper(TreeNode node, int greater){
         if(node == null)
             return greater;
-        int right = helper(node.right,greater);
-        node.val += right;
-        int left = helper(node.left,node.val);
-        return left;
+        node.val += helper(node.right,greater);
+        
+        return helper(node.left,node.val);
     }
 }
