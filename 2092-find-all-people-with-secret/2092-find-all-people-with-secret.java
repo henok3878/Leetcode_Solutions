@@ -31,10 +31,11 @@ class Solution {
         Queue<long[]> q = new PriorityQueue<>((a,b)-> (int)(a[1] - b[1]));
         q.add(new long[]{st,0});
         boolean[] visited = new boolean[n];
-        visited[st] = true;
         
         while(!q.isEmpty()){
             long[] curr = q.poll();
+            if(visited[(int)curr[0]]) continue;
+            
             visited[(int)curr[0]] = true;
             for(int[] adj : graph.get((int)curr[0])){
                 if(!visited[adj[0]] && dist[(int)adj[0]] > adj[1] && adj[1] >= curr[1]){
