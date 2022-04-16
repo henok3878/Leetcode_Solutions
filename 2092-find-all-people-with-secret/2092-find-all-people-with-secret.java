@@ -13,9 +13,7 @@ class Solution {
             graph.get(y).add(new int[]{x,t});
         }
         long[] dist = dijkstra(0,n,graph);
-        
-        //System.out.println(Arrays.toString(dist));
-        
+                
         List<Integer> ans = new ArrayList<>();
         for(int i = 0; i < n;i++){
             if(dist[i] < Long.MAX_VALUE)
@@ -32,11 +30,14 @@ class Solution {
         dist[st] = 0;
         Queue<long[]> q = new PriorityQueue<>((a,b)-> (int)(a[1] - b[1]));
         q.add(new long[]{st,0});
+        boolean[] visited = new boolean[n];
+        visited[st] = true;
         
         while(!q.isEmpty()){
             long[] curr = q.poll();
+            visited[(int)curr[0]] = true;
             for(int[] adj : graph.get((int)curr[0])){
-                if(dist[(int)adj[0]] > adj[1] && adj[1] >= curr[1]){
+                if(!visited[adj[0]] && dist[(int)adj[0]] > adj[1] && adj[1] >= curr[1]){
                     dist[(int)adj[0]] = adj[1];
                     q.add(new long[]{adj[0],adj[1]});
                 }
