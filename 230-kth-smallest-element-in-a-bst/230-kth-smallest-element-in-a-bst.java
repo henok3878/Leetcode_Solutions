@@ -1,38 +1,18 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public int kthSmallest(TreeNode root, int k) {
-        List<Integer> sorted = new ArrayList<>();
-        dfs(root,sorted);
-        
-        return sorted.get(k - 1);
-    }
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
     
-    private void dfs(TreeNode node, List<Integer> list){
-        if(node == null) return;
-        dfs(node.left,list);
-        list.add(node.val);
-        dfs(node.right,list);
-    }
-}
-
-/*
-    Solution1: using maxHeap
-    
-    Solution2: using inorder traversal 
-
-
-*/
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        list = []
+        def inOrder(root):
+            if root is None: return
+            inOrder(root.left)
+            list.append(root.val)
+            inOrder(root.right)
+            
+        inOrder(root)
+        return list[k-1]
