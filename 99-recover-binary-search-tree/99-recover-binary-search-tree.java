@@ -17,12 +17,6 @@ class Solution {
     List<TreeNode> list = new ArrayList<>();
     public void recoverTree(TreeNode root) {
         recover(root);
-        
-        for(TreeNode t : list){
-            System.out.print(t.val + " ");
-        }
-        System.out.println();
-        
         int prevprev = -1, prev = -1;
         for(int i = 1; i < list.size(); i++){
             if(list.get(i).val < list.get(i - 1).val){
@@ -32,7 +26,6 @@ class Solution {
                 prev = i;
             }
         }
-        //System.out.println("pp: " + prevprev + " p: " + prev);
         if(prev != -1){
             int pp = list.get(prevprev).val;
             int p = list.get(prev).val;
