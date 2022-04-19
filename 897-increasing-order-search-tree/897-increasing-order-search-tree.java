@@ -14,9 +14,10 @@
  * }
  */
 class Solution {
-    TreeNode ans = new TreeNode();
-    TreeNode temp = ans;
+    TreeNode temp;
     public TreeNode increasingBST(TreeNode root) {
+        temp = new TreeNode();
+        TreeNode ans = temp;
         helper(root);
         return ans.right;
     }
