@@ -14,31 +14,30 @@
  * }
  */
 class Solution {
-    List<TreeNode> list = new ArrayList<>();
+    
+    TreeNode prevprev;
+    TreeNode prev;
+    TreeNode temp;
     public void recoverTree(TreeNode root) {
+                
         recover(root);
-        int prevprev = -1, prev = -1;
-        for(int i = 1; i < list.size(); i++){
-            if(list.get(i).val < list.get(i - 1).val){
-                if(prev == -1)
-                    prevprev = i-1;
-            
-                prev = i;
-            }
-        }
-        if(prev != -1){
-            int pp = list.get(prevprev).val;
-            int p = list.get(prev).val;
-            list.get(prevprev).val = p;
-            list.get(prev).val = pp;
-        }
+
+        int temp = prevprev.val;
+        prevprev.val = prev.val;
+        prev.val = temp;
         
     }
     
-    public void recover(TreeNode root){
-        if(root == null) return;
-        recover(root.left);
-        list.add(root);
-        recover(root.right);
+    public void recover(TreeNode curr){
+        if(curr == null) return;
+        recover(curr.left);
+        if(temp != null && temp.val > curr.val){
+            if(prevprev == null){
+                prevprev = temp;
+            }
+            prev = curr;
+        }
+        temp = curr;
+        recover(curr.right);
     }
 }
