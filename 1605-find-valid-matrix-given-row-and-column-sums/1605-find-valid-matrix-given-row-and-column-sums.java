@@ -5,10 +5,9 @@ class Solution {
         
         for(int i = 0; i < rows ; i++){
             for(int j = 0; j < cols; j++){
-                int min = Math.min(rowSum[i],colSum[j]);
-                ans[i][j] = min;
-                rowSum[i] -= min;
-                colSum[j] -= min;
+                ans[i][j] = Math.min(rowSum[i],colSum[j]);
+                rowSum[i] -= ans[i][j];
+                colSum[j] -= ans[i][j];
             }
         }
         
