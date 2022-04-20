@@ -19,14 +19,13 @@ class Solution {
         int longestChain = 0;
         int[] visited = new int[n];
         int[] depth = new int[n];
-        Arrays.fill(depth,-1);
         
         for(int i = 0; i < n; i++){
             if(visited[i] == 0){
                 int cycle = findCycle(i,graph,visited,0);
                 if(cycle == 2){
-                    int left = longestChain(favorite[i],i,graph,depth);
-                    int right = longestChain(i,favorite[i],graph,depth);       
+                    int left = longestChain(i,graph,depth,favorite);
+                    int right = longestChain(favorite[i],graph,depth,favorite);       
                     longestChain += left + right;
                 }
                 longestCycle = Math.max(longestCycle,cycle);
@@ -38,17 +37,16 @@ class Solution {
         
     }
     
-    private int longestChain(int p, int n,List<List<Integer>> graph, int[] depth){
-        if(depth[n] != -1)
+    private int longestChain(int n,List<List<Integer>> graph, int[] depth,int[] fav){
+        if(depth[n] != 0)
             return depth[n];
         depth[n] = 1;
-        int dep = 1;
         for(int adj : graph.get(n)){
-            if(adj == p) continue;
-            dep = Math.max(dep,1 + longestChain(p,adj,graph,depth));
+            if(adj == fav[n]) continue;
+            depth[n] = Math.max(depth[n],1 + longestChain(adj,graph,depth,fav));
         }
         
-        return depth[n] = dep;
+        return depth[n];
     }
     
     private int findCycle(int n, List<List<Integer>> graph, int[] visited, int leng){
