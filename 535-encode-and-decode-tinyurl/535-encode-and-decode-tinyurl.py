@@ -17,7 +17,6 @@ class Codec:
         """
         a = int(shortUrl.split('/')[-1])
         return self.map[a]
-        
 
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
