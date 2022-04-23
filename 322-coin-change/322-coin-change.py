@@ -7,7 +7,5 @@ class Solution:
             for coin in coins:
                 if n >= coin:
                     dp[n] = min(dp[n-coin] + 1, dp[n])
-        if dp[amount] == self.max:
-            return -1
-        else:
-            return dp[amount]
+                    
+        return -1 if dp[amount] == self.max else dp[amount] 
