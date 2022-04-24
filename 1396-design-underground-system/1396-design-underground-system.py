@@ -8,7 +8,7 @@ class UndergroundSystem:
         self.check_ins[id] = [stationName,t]
 
     def checkOut(self, id: int, stationName: str, t: int) -> None:
-        st_station,st_time = self.check_ins[id]
+        st_station,st_time = self.check_ins.pop(id)
         key = self.getKey(st_station,stationName)
         total,count = self.trips[key]
         self.trips[key] = (total + t - st_time, count + 1)
