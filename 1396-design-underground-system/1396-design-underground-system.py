@@ -1,10 +1,8 @@
 class UndergroundSystem:
 
-    def fact(self):
-        return (0,0)
     def __init__(self):
         self.check_ins = {} # id -> [st,t]
-        self.trips = defaultdict(self.fact)# st_end -> total, count
+        self.trips = defaultdict(lambda:(0,0))# st_end -> total, count
 
     def checkIn(self, id: int, stationName: str, t: int) -> None:
         self.check_ins[id] = [stationName,t]
