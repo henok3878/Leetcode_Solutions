@@ -26,7 +26,6 @@ class PeekingIterator:
         :type iterator: Iterator
         """
         self.iterator = iterator
-        self.ptr = -1
 
     def peek(self):
         """
