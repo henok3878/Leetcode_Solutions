@@ -32,9 +32,8 @@ class UnionFind:
         self.ranks = [0]*n
         
     def find(self,el):
-        if(self.parents[el] == el):
-            return el
-        self.parents[el] = self.find(self.parents[el])
+        if(self.parents[el] != el):
+            self.parents[el] = self.find(self.parents[el])
         return self.parents[el]
         
     def union(self,el1, el2):
