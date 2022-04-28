@@ -22,12 +22,11 @@ class Solution:
         n,m = len(heights), len(heights[0])
         
         left,right = 0, 10**6
-        
-        while(left < right):
+        while(left <= right):
             mid = (left + right) // 2
             visited = [[False for _ in range(m)]for _ in range(n)]
             if(dfs(0,0,mid)):
-                right = mid
+                right = mid - 1
             else:
                 left = mid + 1
         
