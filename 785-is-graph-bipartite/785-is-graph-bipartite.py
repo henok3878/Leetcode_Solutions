@@ -9,19 +9,26 @@ class Solution:
             visited[i] = 1 => visited and colored black
         '''
         
-        def dfs(i,p):
-            if(visited[i] == p):
-                return False
-            elif(visited[i] == -1*p):
-                return True
-            visited[i] = -1*p
-            for adj in graph[i]:
-                if(not dfs(adj,-1*p)):
-                    return False
+        def bfs(i):
+            q = collections.deque()
+            q.append(i)
+            visited[i] = -1
+            while(len(q) > 0):
+                
+                pop = q.popleft()
+                
+                for adj in graph[pop]:
+                    
+                    if(visited[adj] == visited[pop]):
+                        return False
+                    elif(visited[adj] == 0):
+                        visited[adj] = -1*visited[pop]
+                        q.append(adj)
+                        
             return True
         
         for i in range(n):
-            if(visited[i] == 0 and not dfs(i,-1)):
+            if(visited[i] == 0 and not bfs(i)):
                 return False
             
         return True
