@@ -2,9 +2,7 @@ class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         graph = defaultdict(list)
         n = len(equations)
-        for idx in range(n):
-            eq = equations[idx]
-            u,v,cost = eq[0], eq[1], values[idx]
+        for (u,v),cost in zip(equations,values):
             graph[u].append((v,cost))
             graph[v].append((u,1/cost))
             
