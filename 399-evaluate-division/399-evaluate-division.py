@@ -10,9 +10,9 @@ class Solution:
             
        
         def is_reachable(st,end,res):
-            if(len(graph[st]) == 0):
+            if(st not in graph):
                 return -1
-            if(st == end):
+            elif(st == end):
                 return res
             visited[st] = True
             
