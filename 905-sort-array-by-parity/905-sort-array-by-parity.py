@@ -2,9 +2,10 @@ class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
         n = len(nums)
         l,r = 0, n - 1
-        while(l < n and r > l):
+        while(r > l):
             #print(nums)
             if nums[l] % 2 == 1:
+                # just fast forward, can be avoided 
                 while(nums[r] % 2 == 1 and r > l):
                     r -= 1
                 if(r >= 0):
