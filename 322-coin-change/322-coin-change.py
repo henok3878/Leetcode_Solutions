@@ -17,31 +17,24 @@ class Solution:
             
             res = m
             for c in coins:
-                res = min(res,helper(amt - c) + 1)
+                res = min(res,helper(amt - c))
             
-            dp[amt] = res
+            dp[amt] = res + 1
             return dp[amt]
         ret = helper(amount)
-        return -1 if ret == m else ret
+        return -1 if ret == (m + 1) else ret
     
 
 """
+
+    minWays(11) = 1 + Min(minWays(10), minWays(9), minWays(6))
 
     
     -------------- n = 11
    '
    '
    '
-    sum(nCk) for k in range(12): 
-    
-    = 2^n = 2^11
-    
-    1,1,1,1,1,1,1,1,2
-    
-    
-    {a,b,c} -> {},{a},{b},{b,c},{a,b},...,{a,b,c} # 8 
-    
-    {1,2,5} => 2^3 - - -
+
     sum (nCk) for k in range(4)
 
 
