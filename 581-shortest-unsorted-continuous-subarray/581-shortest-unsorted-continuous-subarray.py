@@ -1,18 +1,22 @@
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
         n = len(nums)
-        l,r = 0, n -1
-        sorted_nums = sorted(nums)
+        l,lMax = -1,-(10**6)
+        for i,num in enumerate(nums):
+            if num > lMax:
+                lMax = num
+            elif num < lMax:
+                l = i
+        r,rMin = n, 10**6
         
-        while(l < n and sorted_nums[l] == nums[l]):
-            l += 1
-        while(r >= 0 and sorted_nums[r] == nums[r]):
-            r -= 1
-        if(r <= l):
+        for i in range(n-1,-1,-1):
+            num = nums[i]
+            if num < rMin:
+                rMin = num
+            elif num > rMin:
+                r = i
+        if l == -1 and r == n:
             return 0
-        return r - l + 1
+        #print(l,r)
+        return l - r  + 1
     
-    
-    """
-    5,6,7,8,1,2,3
-    """    
