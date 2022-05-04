@@ -5,7 +5,7 @@ class Solution:
         
         @lru_cache(None)
         def rec(i,curr):
-            if(i  == n):
+            if(i  >= n):
                 return 1 if curr == target else 0
             
             select = rec(i+1,curr - nums[i])
