@@ -3,10 +3,8 @@ class Solution:
         dict = collections.defaultdict(int)
         count = 0
         for i,num in enumerate(nums):
-            #print(dict)
             comp = k-num
             if(dict[comp] > 0):
-                print(comp, num)
                 count += 1
                 dict[comp] -= 1
             else:
