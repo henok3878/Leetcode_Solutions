@@ -1,22 +1,16 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
-        n = len(nums)
         total = sum(nums)
         if(total % 2 != 0):
             return False
-        half = total // 2
+        target = total // 2
+        n = len(nums)
+        dp = [[False for _ in range(target + 1)] for _ in range(n + 1)]
+        dp[0][0] = True
         
-        @lru_cache(None)
-        def helper(i,curr):
-            if curr < 0:
-                return False
-            elif curr == 0:
-                return True
-            
-            res = False
-            for nxt in range(i,n):
-                res = res or helper(nxt + 1, curr - nums[nxt])
-                
-            return res
-        
-        return helper(0,half)
+        for i in range(1,n + 1):
+            for t in range(target + 1):
+                res = dp[i-1][t - nums[i-1]] if t - nums[i-1] >= 0 else False
+                dp[i][t] = dp[i-1][t] or res
+        # print(dp)
+        return dp[n][target]
