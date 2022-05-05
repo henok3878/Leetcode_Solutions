@@ -3,21 +3,18 @@ class Solution:
         n = len(nums)
         if(n < 2):
             return False
-        
-        p_sum = [0] * (n + 1)
-        for i in range(n):
-            p_sum[i + 1] = p_sum[i] + nums[i]
-            
+        p_sum = 0       
         mp = {}        
-        for i in range(1,n+1):
+        for i in range(0,n):
+            p_sum += nums[i]
             #print(i,p_sum,mp)
-            if p_sum[i] % k == 0 and i > 1:
+            if p_sum % k == 0 and i >= 1:
                 return True
             
-            elif p_sum[i] % k in mp:
-                if (i - mp[p_sum[i] % k] > 1):
+            elif p_sum % k in mp:
+                if (i - mp[p_sum % k] > 1):
                     return True
             else: 
-                mp[p_sum[i] % k] = i
+                mp[p_sum % k] = i
         return False
         
