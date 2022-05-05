@@ -1,8 +1,6 @@
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
         n = len(nums)
-        if(n < 2):
-            return False
         p_sum = 0       
         mp = {}        
         for i in range(0,n):
