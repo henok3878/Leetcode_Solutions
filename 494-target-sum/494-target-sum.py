@@ -13,5 +13,5 @@ class Solution:
                 nxt = dp[i][total + t + nums[i]] if t + nums[i] <= total else 0
                 
                 dp[i+1][total + t] = prev  + nxt
-        
+                
         return dp[n][total + target]
