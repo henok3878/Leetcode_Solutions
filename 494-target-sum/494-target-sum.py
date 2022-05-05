@@ -15,5 +15,4 @@ class Solution:
                 
                 temp_dp[total + t] = prev  + nxt
             dp = temp_dp
-        print(dp)
         return dp[total + target]
