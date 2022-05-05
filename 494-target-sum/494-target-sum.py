@@ -4,14 +4,16 @@ class Solution:
         if(abs(target) > total):
             return 0
         n = len(nums)
-        dp = [[0 for _ in range(2*total + 1)] for _ in range(n+1)]
-        dp[0][total] = 1
-        
+        dp = [0]*(2*total + 1)
+        dp[total] = 1
         for i in range(n):
+            temp_dp = [0] * (2*total + 1)
+            
             for t in range(-1*total,total + 1, 1):
-                prev = dp[i][total + t-nums[i]] if t - nums[i] >= -1*total else 0
-                nxt = dp[i][total + t + nums[i]] if t + nums[i] <= total else 0
+                prev = dp[total + t-nums[i]] if t - nums[i] >= -1*total else 0
+                nxt = dp[total + t + nums[i]] if t + nums[i] <= total else 0
                 
-                dp[i+1][total + t] = prev  + nxt
-                
-        return dp[n][total + target]
+                temp_dp[total + t] = prev  + nxt
+            dp = temp_dp
+        print(dp)
+        return dp[total + target]
