@@ -1,15 +1,18 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
+        n = len(nums)
         total = sum(nums)
         if(total % 2 != 0):
             return False
-        target = total // 2
-        n = len(nums)
-        dp = [False] * (target + 1)
-        dp[0] = True
+        half = total // 2
         
-        for i in range(n):
-            for t in range(target,nums[i]-1,-1):
-                dp[t] = dp[t-nums[i]] or dp[t]
-        # print(dp)
-        return dp[target]
+        @lru_cache(None)
+        def helper(i,curr):
+            if curr < 0 or i >= n:
+                return False
+            elif curr == 0:
+                return True
+            
+            return helper(i + 1, curr - nums[i]) or helper(i+1,curr)
+        
+        return helper(0,half)
