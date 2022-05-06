@@ -3,7 +3,6 @@ class Solution:
         n = len(coins)
         MAX = 10**6
         dp = [[-1 for _ in range(amount + 1)] for _ in range(n)]
-        dp[0][0] = 0
         
         def helper(i,amt):
             if i == n:
