@@ -5,17 +5,16 @@ class Solution:
         
         for i in range(n):
 
-            if len(stack) != 0 and stack[-1][0] == s[i]:
+            if stack and stack[-1][0] == s[i]:
                 c,cnt = stack.pop()
                 stack.append((c,cnt + 1))
             else:
                 stack.append((s[i],1))
                 
-            if len(stack) > 0 and stack[-1][1] == k:
+            if stack and stack[-1][1] == k:
                 stack.pop()
         ans = []
-        while(len(stack) > 0):
-            ans.insert(0,stack[-1][0]*stack.pop()[1])
-        
+        for c,cnt in stack:
+            ans.append(c*cnt)
         return ''.join(ans)
                 
