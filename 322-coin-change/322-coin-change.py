@@ -1,20 +1,20 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         MAX = 10**6
+        n = len(coins)
         
         @lru_cache(None)
-        def helper(amt):
+        def helper(i,amt):
+            if i >= n or amt < 0:
+                return MAX
             if amt == 0:
                 return 0
-            elif amt < 0:
-                return MAX
-            res = MAX
-            for c in coins:
-                res = min(res,1 + helper(amt - c))
-            return res
-        
-        ans = helper(amount)
-        
+            select = 1 + helper(i,amt - coins[i]) 
+            skip = helper(i + 1, amt)
+            
+            return min(select,skip)
+            
+        ans = helper(0,amount)
         return -1 if ans >= MAX else ans 
         
         
