@@ -9,10 +9,11 @@ class Solution:
                 return MAX
             if amt == 0:
                 return 0
-            select = 1 + helper(i,amt - coins[i]) 
-            skip = helper(i + 1, amt)
+            res = MAX
+            for nxt in range(i,n):
+                res = min(res, 1 + helper(nxt,amt - coins[nxt]))
             
-            return min(select,skip)
+            return res
             
         ans = helper(0,amount)
         return -1 if ans >= MAX else ans 
