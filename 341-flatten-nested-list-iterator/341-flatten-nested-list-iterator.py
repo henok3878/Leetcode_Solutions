@@ -25,10 +25,7 @@ class NestedIterator:
         self.curr = -1
         self.list = []
         self.setup(0,nestedList)
-    def setup(self,st,nlist):
-        if(st == len(nlist)):
-                return 
-        
+    def setup(self,st,nlist):     
         for i in range(st,len(nlist)):
             if(nlist[i].isInteger()):
                 self.list.append(nlist[i].getInteger())
