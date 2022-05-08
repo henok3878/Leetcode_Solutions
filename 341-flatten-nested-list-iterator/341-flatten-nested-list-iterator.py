@@ -26,11 +26,11 @@ class NestedIterator:
         self.list = []
         self.setup(0,nestedList)
     def setup(self,st,nlist):     
-        for i in range(st,len(nlist)):
-            if(nlist[i].isInteger()):
-                self.list.append(nlist[i].getInteger())
+        for ni in nlist:
+            if(ni.isInteger()):
+                self.list.append(ni.getInteger())
             else:
-                self.setup(0,nlist[i].getList())
+                self.setup(0,ni.getList())
     
     def next(self) -> int:
         self.curr += 1
