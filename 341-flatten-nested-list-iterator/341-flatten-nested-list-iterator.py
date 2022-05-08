@@ -33,8 +33,8 @@ class NestedIterator:
                 self.setup(0,nlist[i].getList())
     
     def next(self) -> int:
-        nxt = self.list[self.curr + 1]
         self.curr += 1
+        nxt = self.list[self.curr]
         return nxt
     
     def hasNext(self) -> bool:
