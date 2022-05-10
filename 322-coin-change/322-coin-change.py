@@ -1,23 +1,18 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        MAX = 10**6
+        
+        MAX = 10**10
         n = len(coins)
+        dp = [[MAX for _ in range(amount + 1)] for _ in range(n + 1)]
+        dp[0][0] = 0
         
-        @lru_cache(None)
-        def helper(i,amt):
-            if i >= n or amt < 0:
-                return MAX
-            if amt == 0:
-                return 0
-            res = MAX
-            for nxt in range(i,n):
-                res = min(res, 1 + helper(nxt,amt - coins[nxt]))
-            
-            return res
-            
-        ans = helper(0,amount)
-        return -1 if ans >= MAX else ans 
-        
+        for amt in range(amount + 1):
+            for i in range(1,n + 1):
+                dp[i][amt] = dp[i-1][amt]
+                if amt - coins[i-1] >= 0:
+                    dp[i][amt] = min(dp[i][amt],1 + dp[i][amt -coins[i-1]])
+                    
+        return -1 if dp[n][amount] >= MAX else dp[n][amount]
         
         
         """
@@ -53,9 +48,4 @@ class Solution:
                     total call => amount+1 * n unique problems 
                     
                     total = n^(amount + 1)
-            
-        
-        
-        
-        
         """
