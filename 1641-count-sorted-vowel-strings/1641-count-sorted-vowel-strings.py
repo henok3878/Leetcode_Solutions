@@ -2,7 +2,7 @@ class Solution:
     def countVowelStrings(self, n: int) -> int:
         
         
-        dp =  [1,1,1,1,1]
+        dp =  [1]*5
         for i in range(n):
             for l in range(1,5):
                 dp[l] += dp[l-1]
