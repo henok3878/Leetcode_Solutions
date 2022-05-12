@@ -1,5 +1,7 @@
 class Solution:
     def countVowelStrings(self, n: int) -> int: 
+        
+        @cache
         def helper(i,pos):
             if(pos == n):
                 return 1
