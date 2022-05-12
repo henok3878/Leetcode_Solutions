@@ -1,14 +1,16 @@
 class Solution:
-    def countVowelStrings(self, n: int) -> int:
+    def countVowelStrings(self, n: int) -> int: 
+        def helper(i,pos):
+            if(pos == n):
+                return 1
+            res = 0
+            for nxt in range(i,5):
+                res += helper(nxt,pos + 1)
+            return res
         
-        
-        dp =  [1]*5
-        for i in range(n):
-            for l in range(1,5):
-                dp[l] += dp[l-1]
-            
-        return dp[4]
-        
+        return helper(0,0)
+      
+
         """
         n = 1, 
         a,e,i,o,u
