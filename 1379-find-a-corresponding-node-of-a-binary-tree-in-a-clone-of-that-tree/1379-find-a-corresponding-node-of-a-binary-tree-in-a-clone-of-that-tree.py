@@ -9,14 +9,16 @@ class Solution:
     def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
         
         
-        def helper(root, tgt):
-            if root.val == tgt:
-                return root
-            res = None
-            if(root.left):
-                res = helper(root.left,tgt)
-            if(not res and root.right):
-                res = helper(root.right,tgt)
+        def dfs(root1, root2, target):
+            if(not root1):
+                return
+            if(root1 == target):
+                return root2
             
-            return res
-        return helper(cloned,target.val)
+            left = dfs(root1.left,root2.left,target)
+            if(left):
+                return left
+            return dfs(root1.right,root2.right,target)
+        
+                
+        return dfs(original,cloned,target)
