@@ -25,7 +25,3 @@ class Solution:
                 r += 1    
         
         return s[ans[0]: ans[1] + 1]
-        
-        """
-        
-        """
