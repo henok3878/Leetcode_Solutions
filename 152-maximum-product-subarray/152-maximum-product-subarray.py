@@ -17,7 +17,6 @@ class Solution:
                 neg *= nums[i]
                 pos = max(pos,nums[i])
                 
-            #print(pos,neg)
             ans = max(pos,ans)
             
         return ans
