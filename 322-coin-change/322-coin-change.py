@@ -10,15 +10,13 @@ class Solution:
             if i == len(coins):
                 return 0 if amount == curr else MAX
             
-            select = MAX
-            if(amount - coins[i] >= 0):
-                select = 1  + dfs(i, curr + coins[i])
+            select = 1  + dfs(i, curr + coins[i])
             skip = dfs(i + 1, curr)
             
             return min(select,skip)
         
         ans = dfs(0,0)
-        return ans if ans != MAX else -1
+        return ans if ans < MAX else -1
         
         
         """
