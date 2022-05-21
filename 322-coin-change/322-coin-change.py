@@ -1,17 +1,24 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         
-        MAX = 10**10
-        n = len(coins)
-        dp = [MAX for _ in range(amount + 1)]
-        dp[0] = 0
+        MAX = 10**20
         
-        for amt in range(amount + 1):
-            for i in range(1,n + 1):
-                if amt - coins[i-1] >= 0:
-                    dp[amt] = min(dp[amt],1 + dp[amt -coins[i-1]])
-                    
-        return -1 if dp[amount] >= MAX else dp[amount]
+        @cache
+        def dfs(i,curr):
+            if(curr > amount):
+                return MAX
+            if i == len(coins):
+                return 0 if amount == curr else MAX
+            
+            select = MAX
+            if(amount - coins[i] >= 0):
+                select = 1  + dfs(i, curr + coins[i])
+            skip = dfs(i + 1, curr)
+            
+            return min(select,skip)
+        
+        ans = dfs(0,0)
+        return ans if ans != MAX else -1
         
         
         """
