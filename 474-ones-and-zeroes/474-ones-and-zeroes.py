@@ -12,11 +12,6 @@ class Solution:
                     ones += 1
             return (zeros,ones)
         
-        count = []
-        MIN = -1*(10 ** 20)
-        for s in strs:
-            count.append(counter(s))
-        
         @cache 
         def dfs(i,curr):
             if i == len(strs):
@@ -28,6 +23,11 @@ class Solution:
             
             return max(select,skip)
         
+        count = []
+        MIN = -1*(10 ** 20)
+        for s in strs:
+            count.append(counter(s))
+            
         return dfs(0,(0,0))
         
         
