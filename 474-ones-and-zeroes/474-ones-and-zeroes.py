@@ -21,7 +21,6 @@ class Solution:
         def dfs(i,curr):
             if i == len(strs):
                 return 0
-            nonlocal count
             select = MIN 
             if(curr[0] + count[i][0] <= m and curr[1] + count[i][1] <= n):
                 select = 1 + dfs(i + 1, (curr[0] + count[i][0], curr[1] + count[i][1]))
