@@ -3,7 +3,7 @@ class Solution:
         R = len(matrix)
         C = len(matrix[0])
         
-        transpose = [[0 for i in range(R)]for _ in range(C)]
+        transpose = [[0] * R for i in range(C)]
         for r in range(R):
             for c in range(C):
                 transpose[c][r] = matrix[r][c]
