@@ -10,7 +10,7 @@ class Solution:
             if i == len(cookies):
                 return max_child
             else:
-                for c in range(k):
+                for c in range(min(i + 1, k)):
                     childs[c] += cookies[i]
                     min_sofar = helper(i + 1, childs)
                     childs[c] -= cookies[i]
