@@ -4,7 +4,7 @@ class Solution:
         if n < 4:
             return 0
         nums.sort()
-        ans = 10**20
+        ans = 10**10
         for i in range(4):
             ans = min(ans, nums[n- 1 - ( 3 - i)] - nums[i])  
         return ans
