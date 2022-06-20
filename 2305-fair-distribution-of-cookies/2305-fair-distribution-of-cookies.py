@@ -4,11 +4,11 @@ class Solution:
         min_sofar = 10**20
         def helper(i,childs):
             nonlocal min_sofar
-            
-            if max(childs) > min_sofar:
+            max_child = max(childs)
+            if max_child > min_sofar:
                 return min_sofar
             if i == len(cookies):
-                return max(childs)
+                return max_child
             else:
                 for c in range(k):
                     childs[c] += cookies[i]
