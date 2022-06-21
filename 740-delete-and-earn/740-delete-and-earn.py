@@ -9,6 +9,6 @@ class Solution:
         for i in range(2,max_elem + 1):        
             aggregate[i] = max(aggregate[i] + aggregate[i - 2], aggregate[i-1])
         
-        return max(aggregate)
+        return aggregate[max_elem]
         
         
