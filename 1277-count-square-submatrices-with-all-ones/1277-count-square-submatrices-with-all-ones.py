@@ -9,13 +9,3 @@ class Solution:
                     matrix[i][j] = adj_min + 1
                     total += matrix[i][j]
         return total
-    
-    
-"""
-
-[0, 1, 1, 1]
-[1, 1, 2, 2]
-[0, 1, 2, 3]]
-
-
-"""
