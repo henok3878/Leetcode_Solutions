@@ -6,9 +6,8 @@ class Solution:
             return result 
         for i in range(1,n):
             result += (26 ** i) 
-        
-        for i in range(n-1):
-            result += (ord(columnTitle[i]) - ord('A'))*(26**(n-i - 1))
+            result += (ord(columnTitle[i-1]) - ord('A'))*(26**(n- i))
+    
         return result
         
     
