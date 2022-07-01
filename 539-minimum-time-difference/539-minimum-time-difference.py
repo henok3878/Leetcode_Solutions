@@ -7,7 +7,6 @@ class Solution:
         
         n = len(timePoints)
         timePoints.sort(key = lambda x: (int(x[:2]) * 60) + int(x[3:]))
-        print(timePoints)
         
         min_cw = float("inf")
         for i in range(1,n):
