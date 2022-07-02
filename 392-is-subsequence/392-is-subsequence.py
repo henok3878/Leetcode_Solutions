@@ -1,14 +1,15 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        last = -1 
+        maps = defaultdict(list)
+        for i,c in enumerate(t):
+            maps[c].append(i)        
+        last = -1
         for c in s:
-            found = False
-            for i in range(last + 1,len(t)):
-                c2 = t[i]
-                if c == c2:
-                    last = i
-                    found = True 
-                    break
-            if not found:
+            idx = bisect_right(maps[c],last)
+            if idx >= len(maps[c]):
                 return False 
+            else:
+                last = maps[c][idx]
+            #print(c,maps[c],last,maps[c][idx])
+
         return True 
