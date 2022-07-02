@@ -30,16 +30,14 @@ class Solution:
         
         ans = []
         i = 0
-        j = 0 
-        while i < len(path1) and j < len(path2):
-            if path1[i] == path2[j]:
+        while i < len(path1) and i < len(path2):
+            if path1[i] == path2[i]:
                 i += 1 
-                j += 1
             else:
                 break
         for idx in range(i,len(path1)):
             ans.append('U')
-        for idx in range(j, len(path2)):
+        for idx in range(i, len(path2)):
             ans.append(path2[idx])
             
         return "".join(ans)
