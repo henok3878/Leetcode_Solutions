@@ -10,6 +10,4 @@ class Solution:
                 return False 
             else:
                 last = maps[c][idx]
-            #print(c,maps[c],last,maps[c][idx])
-
         return True 
