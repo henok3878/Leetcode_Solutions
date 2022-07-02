@@ -17,6 +17,7 @@ class Solution:
                 else:
                     starting_char = suffix[0]
                     buckets[starting_char].append(suffix)
-        
-        
         return counter 
+"""
+Time complexity: O(N + (words.length * words[i].length))
+"""
