@@ -7,16 +7,13 @@
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
         
-        def inorder(node):
+        def helper(node, min_val = float('-inf'), max_val = float('inf')):
             if not node:
-                return 
-            inorder(node.left)
-            l.append(node.val) 
-            inorder(node.right)
-            
-        l = []
-        inorder(root)
-        for i in range(1, len(l)):
-            if l[i] <= l[i-1]:
+                return True 
+            elif node.val <= min_val or node.val >= max_val: 
                 return False 
-        return True 
+            
+            return helper(node.left,min_val,node.val) and helper(node.right, node.val,max_val) 
+      
+        
+        return helper(root)
