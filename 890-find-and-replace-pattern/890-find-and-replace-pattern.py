@@ -4,16 +4,16 @@ class Solution:
         
         def match(word):
             mapping = {} 
-            p = {}
+            used = set()
             for i,w in enumerate(word):
                 if w in mapping: 
                     if pattern[i] != mapping[w]:
                         return False 
-                elif pattern[i] in p:
+                elif pattern[i] in used:
                     return False
                 else: 
                     mapping[w] = pattern[i] 
-                    p[pattern[i]] = w 
+                    used.add(pattern[i])
             
             return True 
             
