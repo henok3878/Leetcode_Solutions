@@ -8,13 +8,11 @@ class Solution:
                     return -1
                 
         def update_color_values(u, v):
-            parent_values=color_values[u]
-            child_values=color_values[v]
             for i in range(26):
-                path_value = child_values[i]
+                path_value = color_values[v][i]
                 if colors[u] == chr(ord('a') + i):
                     path_value += 1
-                parent_values[i] = max(parent_values[i], path_value)
+                color_values[u][i] = max(color_values[u][i], path_value)
         
         n = len(colors)
         visited = set() 
