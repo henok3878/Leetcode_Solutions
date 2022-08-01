@@ -4,12 +4,10 @@ class Solution:
         n = len(nums)
         dp = [0] * n  
         for l in range(n-1,-1,-1): 
-            for r in range(n):
-                if l > r: 
-                    dp[r] = 0 
+            for r in range(l,n):
+                if l == r: 
+                    dp[r] = nums[l] 
                 else:
-                    left = dp[r] if l + 1 < n else 0 
-                    right = dp[r-1] if r - 1 >= 0 else 0 
-                    dp[r] = max(nums[l] - left, nums[r] - right)
+                    dp[r] = max(nums[l] - dp[r], nums[r] - dp[r-1])
                     
         return dp[n-1] >= 0
