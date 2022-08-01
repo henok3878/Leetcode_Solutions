@@ -1,13 +1,15 @@
 class Solution:
     def PredictTheWinner(self, nums: List[int]) -> bool:
-        
-        @cache 
-        def play(l,r):
-            if l > r:
-                return 0 
-            pick_first = nums[l] - play(l + 1, r) 
-            pick_last = nums[r] - play(l, r - 1) 
-            
-            return max(pick_first, pick_last) 
-        
-        return play(0,len(nums) - 1) >= 0  
+
+        n = len(nums)
+        dp = [[0] * n  for _ in range(n)] 
+        for l in range(n-1,-1,-1): 
+            for r in range(n):
+                if l > r: 
+                    dp[l][r] = 0 
+                else:
+                    left = dp[l+1][r] if l + 1 < n else 0 
+                    right = dp[l][r-1] if r - 1 >= 0 else 0 
+                    dp[l][r] = max(nums[l] - left, nums[r] - right)
+                    
+        return dp[0][n-1] >= 0
