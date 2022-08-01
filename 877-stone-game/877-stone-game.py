@@ -11,4 +11,5 @@ class Solution:
             
             return max(lower, higher)
         
-        return helper(0, len(piles) -1 )
+        half = sum(piles) // 2  
+        return helper(0, len(piles) -1 ) > half 
