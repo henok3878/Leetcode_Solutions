@@ -10,8 +10,8 @@ class Solution:
             res = 0 
             if s[i] == s[j]:
                 res = 2 + helper(i + 1, j - 1) 
-            
-            res = max(res, helper(i, j - 1), helper(i + 1, j))
+            else:
+                res = max(helper(i, j - 1), helper(i + 1, j))
             dp[i][j] = res 
             return res
         
