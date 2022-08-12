@@ -18,13 +18,3 @@ class Solution:
       
         dp = [[-1] * len(s) for _ in range(len(s))]
         return helper(0,len(s) - 1) 
-    
-        
-        
-        
-        
-        """
-        
-        
-        
-        """
