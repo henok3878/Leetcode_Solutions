@@ -2,17 +2,18 @@ class Solution:
     def minInsertions(self, s: str) -> int:
         
         
-        @cache 
         def find_longest(i,j):
+            dp = [[0] * len(s) for _ in range(len(s))] 
             
-            if i == j:
-                return 1 
-            elif i > j:
-                return 0 
-            elif s[i] == s[j]:
-                return 2 + find_longest(i + 1, j - 1) 
-            else:
-                return max(find_longest(i + 1, j), find_longest(i,j - 1)) 
+            for i in range(len(s) - 1, -1,-1):
+                dp[i][i] = 1 
+                for j in range(i + 1, len(s)):
+                    if s[i] == s[j]:
+                        dp[i][j] = 2 + dp[i + 1][j - 1] 
+                    else:
+                        dp[i][j] = max(dp[i + 1][j], dp[i][j - 1]) 
+            
+            return dp[0][len(s) - 1]
             
         longest = find_longest(0, len(s) - 1) 
         
