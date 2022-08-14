@@ -7,14 +7,10 @@ class Solution:
             if len(curr) == k:
                 ans.append(curr[:]) 
                 return 
-            if i > n:
-                return 
-            #choose 
-            curr.append(i) 
-            helper(i + 1, curr)
-            curr.pop() 
-            #skip 
-            helper(i + 1, curr)
+            for idx in range(i,n + 1):
+                curr.append(idx)
+                helper(idx + 1, curr)
+                curr.pop()
         
         helper()
         return ans
