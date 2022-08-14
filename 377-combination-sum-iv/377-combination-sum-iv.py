@@ -1,16 +1,15 @@
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
         
-        @cache 
-        def helper(target):
-            if target == 0:
-                return 1
-            elif target < 0:
-                return 0
-            res = 0 
-            for num in nums:
-                res += helper(target - num)
-            return res
+        dp = [0] * (target + 1) 
+        dp[0] = 1 
         
-        return helper(target)
-            
+        for i in range(1,target + 1):
+            for num in nums:
+                prev_st = dp[i - num] if i - num >= 0 else 0 
+                dp[i] += prev_st 
+        
+        #print(dp)
+        return dp[target]
+        
+        
