@@ -5,14 +5,17 @@ class Solution:
         cuts.insert(0,0)
         cuts.append(n)
         
-        @cache 
-        def helper(i,j):
-            if i + 1 >= j:
-                return 0
+        N = len(cuts)
+        dp  = [[float('inf')] * (N) for _ in range(N)]
+                
+        for i in range(N - 2, -1,-1):
+            for j in range(1,N):
+                if i + 1 >= j:
+                    dp[i][j] = 0
+                    continue 
+                for k in range(i + 1, j):
+                    dp[i][j] = min(dp[k][j] +  dp[i][k], dp[i][j])
+                    
+                dp[i][j] += cuts[j] - cuts[i]
+        return dp[0][N-1]
             
-            cost = float('inf')
-            for k in range(i + 1, j):
-                 cost = min(helper(k,j) + helper(i,k) , cost)        
-            return cost + (cuts[j] - cuts[i])
-        
-        return helper(0,len(cuts) - 1)
