@@ -19,7 +19,7 @@ class Solution:
             
             
         n = len(tasks) 
-        tasks.sort() 
+        tasks.sort(reverse = True) 
         l,r = 1, n 
         ans = n 
         while l <= r:
