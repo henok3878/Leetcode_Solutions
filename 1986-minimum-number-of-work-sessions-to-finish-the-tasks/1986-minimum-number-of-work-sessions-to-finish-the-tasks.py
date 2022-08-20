@@ -14,12 +14,12 @@ class Solution:
                     return True 
                 slots[i] += tasks[idx] 
                 if slots[i] == sessionTime:
-                    break
+                    break 
             return False 
             
             
         n = len(tasks) 
-        tasks.sort(reverse = True) 
+        tasks.sort() 
         l,r = 1, n 
         ans = n 
         while l <= r:
