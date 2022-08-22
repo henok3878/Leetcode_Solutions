@@ -9,6 +9,8 @@ class Solution:
                 curr = r * r 
                 if curr <= i:
                     if dp[i-curr][1]:
-                        dp[i] = True,False        
+                        dp[i] = True,False    
+                else:
+                    break 
         return dp[n][0]
         
