@@ -9,10 +9,7 @@ class Solution:
                 return 0 
             if dp[n] != -1:
                 return dp[n] 
-            if n % 2 == 0:
-                dp[n] = 1 + find_steps(n // 2) 
-            else:
-                dp[n] = 1 + find_steps(3*n + 1)
+            dp[n] = 1 + find_steps(3*n + 1 if n % 2 != 0 else n // 2)
             return dp[n]
         
         
