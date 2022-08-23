@@ -1,7 +1,8 @@
+dp = defaultdict(lambda: -1) 
 class Solution:
-    def getKth(self, lo: int, hi: int, k: int) -> int:
-        
-        dp = defaultdict(lambda: -1) 
+    
+    def getKth(self, lo: int, hi: int, k: int) -> int: 
+        global dp
         ans = []
         def find_steps(n):
             if n == 1:
