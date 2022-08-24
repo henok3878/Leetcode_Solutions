@@ -11,12 +11,13 @@ class Solution:
                 curr = curr.children[idx] 
             curr.isWord = True 
         
-        def find(word,count):
+        def find(st,word,count):
             curr = root
-            for i,char in enumerate(word): 
+            for i in range(st,len(word)): 
+                char = word[i]
                 idx = ord(char) - ord('a') 
                 if curr.isWord:
-                    if find(word[i:], count + 1):
+                    if find(i,word, count + 1):
                         return True 
                 if curr.children[idx] is None:
                     return False 
@@ -28,7 +29,7 @@ class Solution:
             insert(word)         
             
         for word in words:
-            if find(word,0):
+            if find(0,word,0):
                 ans.append(word)
         return ans
                     
