@@ -1,23 +1,42 @@
-Trie = lambda: collections.defaultdict(Trie)
-WEIGHT = False
-
 class WordFilter:
+    
+    #O(N * K^2)
     def __init__(self, words: List[str]):
-        self.trie = Trie()
-
-        for weight, word in enumerate(words):
-            word += '#'
-            for i in range(len(word)):
-                cur = self.trie
-                cur[WEIGHT] = weight
-                for j in range(i, 2 * len(word) - 1):
-                    cur = cur[word[j % len(word)]]
-                    cur[WEIGHT] = weight
-
+        self.root = TrieNode() 
+        
+        for i,word in enumerate(words):
+            suf_word = deque(['{'] + list(word))
+            for j in range(len(word)-1,-1,-1):
+                suf_word.appendleft(word[j])
+                self.__insert(i,suf_word) 
+    
+    #O(len(word))
+    def __insert(self,i, word):
+        curr = self.root 
+        for char in word: 
+            idx = ord(char) - ord('a')
+            if not curr.kids[idx]:
+                curr.kids[idx] = TrieNode() 
+            curr = curr.kids[idx]
+            curr.idx = i
+    #O(len(word))
+    def __find(self, word):
+        curr = self.root 
+        for char in word:
+            idx = ord(char) - ord('a')
+            if not curr.kids[idx]:
+                return -1 
+            curr = curr.kids[idx] 
+        return curr.idx 
+    #O(len(word) * Q)
     def f(self, pref: str, suff: str) -> int:
-        cur = self.trie
-        for letter in suff + '#' + pref:
-            if letter not in cur:
-                return -1
-            cur = cur[letter]
-        return cur[WEIGHT]
+        return self.__find(suff + "{" + pref)
+        
+class TrieNode:
+    def __init__(self):
+        self.kids = [None] * 27 
+        self.idx = -1 
+
+# Your WordFilter object will be instantiated and called as such:
+# obj = WordFilter(words)
+# param_1 = obj.f(pref,suff)
