@@ -5,8 +5,7 @@ class Solution:
         def is_pos(k):
             total = 0 
             for pile in piles:
-                total += (pile // k) 
-                total += 1 if pile % k != 0 else 0 
+                total += ceil(pile / k) 
             return total <= h 
         best = -1 
         low,high = 1, 10**9 
