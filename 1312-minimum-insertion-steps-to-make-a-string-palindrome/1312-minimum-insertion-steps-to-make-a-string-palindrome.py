@@ -1,22 +1,17 @@
 class Solution:
     def minInsertions(self, s: str) -> int:
-        
-        
-        def find_longest(i,j):
-            dp = [[0] * len(s) for _ in range(len(s))] 
-            
-            for i in range(len(s) - 1, -1,-1):
-                dp[i][i] = 1 
-                for j in range(i + 1, len(s)):
+            n = len(s)
+            dp = [[float('inf') for _ in range(n)] for _ in range(n)]
+            for i in range(n):
+                for j in range(n):
+                    if i >= j:
+                        dp[i][j] = 0 
+                        
+            for i in range(n-1,-1,-1):
+                for j in range(i+1,n):
                     if s[i] == s[j]:
-                        dp[i][j] = 2 + dp[i + 1][j - 1] 
+                        dp[i][j] = dp[i + 1][j - 1] 
                     else:
-                        dp[i][j] = max(dp[i + 1][j], dp[i][j - 1]) 
+                        dp[i][j] = min(dp[i][j],dp[i + 1][j], dp[i][j - 1]) + 1 
             
-            return dp[0][len(s) - 1]
-            
-        longest = find_longest(0, len(s) - 1) 
-        
-        return len(s) - longest 
-            
-            
+            return dp[0][n-1]
