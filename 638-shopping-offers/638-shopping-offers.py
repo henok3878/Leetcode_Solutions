@@ -1,14 +1,21 @@
 class Solution:
     def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:
         
+        
+        """
+        => total = states * op_per_state =
+                 = worest case: 6^6*100*6 = 6^7*100 
+                 = 2*10^7 
+
+        """
         @cache 
-        def helper(rem):
+        def helper(rem): # 6^6 states 
             cost = 0
             #Consider using price only 
             for i,item in enumerate(rem): 
                 cost += item * price[i]
                 
-            #consider special offers 
+            #consider special offers: O(len(special) * n)
             for offer in special: 
                 using_curr_offer = offer[-1]
                 new_rem = []
