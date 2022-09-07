@@ -18,9 +18,8 @@ class Solution:
             counts.append(v)
         counts.sort(key = lambda i: -i) 
         ans = 0 
-        print(counts)
         for v in counts:
-            while v in visited and v != 0:
+            while v != 0 and v in visited:
                 v -= 1 
                 ans += 1 
             visited.add(v)
