@@ -1,10 +1,6 @@
 class Solution:
     def maxScore(self, nums: List[int]) -> int:
         
-        def gcd(a,b):
-            if a == 0:
-                return b 
-            return gcd(b % a, a) 
         def set_bit(n,i):
             n |= 1 << i
             return n 
