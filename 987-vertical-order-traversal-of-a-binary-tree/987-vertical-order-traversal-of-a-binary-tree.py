@@ -9,21 +9,28 @@ from sortedcontainers import SortedList
 class Solution:
     def verticalTraversal(self, root: Optional[TreeNode]) -> List[List[int]]:
         
-        offset = [0,0]
+        offset_l = 0
+        offset_r = 0  
         grid = defaultdict(lambda: SortedList())
         def helper(node,row,col):
+            nonlocal offset_l 
+            nonlocal offset_r
+            
             if not node:
                 return 
-
-            offset[0], offset[1] = min(offset[0],col), max(offset[1],col)
+            offset_l = min(offset_l, col) 
+            offset_r = max(offset_r,col)
             grid[col].add((row,node.val))
-            
             helper(node.left, row + 1, col - 1) 
             helper(node.right, row + 1, col + 1)
             
         helper(root,0,0) 
         ans = []
-        for col in range(offset[0], offset[1] + 1):
-            ans.append([v for r,v in grid[col]]) 
+        for col in range(offset_l, offset_r + 1):
+            if col in grid:
+                curr = []
+                for r,v in grid[col]:
+                    curr.append(v) 
+                ans.append(curr) 
         return ans 
             
