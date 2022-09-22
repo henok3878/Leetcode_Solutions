@@ -12,10 +12,8 @@ class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
         if not root or root.left is None and root.right is None:
             return root
-        left = root.left 
-        right = root.right 
-        left.next = right 
-        right.next = root.next.left if root.next else None
+        root.left.next = root.right
+        root.right.next = root.next.left if root.next else None
         l_t = self.connect(root.left)
         r_t = self.connect(root.right)
         return root 
