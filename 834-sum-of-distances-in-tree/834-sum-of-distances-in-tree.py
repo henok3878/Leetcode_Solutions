@@ -20,10 +20,8 @@ class Solution:
                 if adj != p:
                     adj_size = sub_tree[adj] 
                     out_side_adj = n - adj_size 
-                    adj_contb = sum_dist[adj] + sub_tree[adj] 
-                    p_total = sum_dist[node] 
-                    diff = p_total - adj_contb 
-                    sum_dist[adj] += (diff) + out_side_adj
+                    adj_contb = sum_dist[adj] + adj_size
+                    sum_dist[adj] += (sum_dist[node] - adj_contb) + out_side_adj
                     dfs2(adj,node) 
                     
         dfs1(0,-1) 
