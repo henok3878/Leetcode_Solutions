@@ -26,10 +26,10 @@ class Solution:
                 helper(adj)
                 # print(node, adj, sub_tree[node], sub_tree[adj])
                 sub_tree[node] += sub_tree[adj] 
-                ways *= facts_inv[sub_tree[adj]] % MOD 
-                ways *= sub_ways[adj]
+                ways *= facts_inv[sub_tree[adj]]
+                ways *= sub_ways[adj] % MOD 
             sub_ways[node] = ways * facts[sub_tree[node] - 1]
-            sub_ways[node] %= MOD
+            sub_ways[node] %= MOD 
             
         helper(0) 
         return sub_ways[0] 
