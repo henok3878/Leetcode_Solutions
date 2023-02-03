@@ -6,18 +6,21 @@
 #         self.right = right
 class Solution:
     def verticalOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        if not root:
+            return []
         col_to_nodes = [[] for _ in range(2*100 + 2)]
         
-        def dfs(node,col,row = 0):
-            if not node:
-                return 
-            col_to_nodes[col+ 100].append((node.val,row))
-            dfs(node.left, col - 1, row + 1) 
-            dfs(node.right, col + 1, row + 1) 
-        dfs(root, 0) 
+        q = deque([(root,0)]) 
+        while q:
+            node,col = q.popleft() 
+            col_to_nodes[col + 100].append(node.val)
+            if node.left:
+                q.append((node.left,col - 1)) 
+            if node.right:
+                q.append((node.right, col + 1)) 
         ans = []
         for i,nodes in enumerate(col_to_nodes):
-            nodes.sort(key = lambda i : i[1])
             if nodes:
-                ans.append([val for val,_ in nodes])
+                ans.append(nodes)
         return ans 
+        
