@@ -11,9 +11,11 @@ class Solution:
         def helper(node,mn,mx):
             if node is None:
                 return 
-            self.mx = max(abs(mn-node.val),abs(mx - node.val), self.mx) 
-            helper(node.left,min(mn, node.val), max(mx, node.val)) 
-            helper(node.right, min(mn, node.val), max(mx, node.val)) 
+            mx = max(mx, node.val) 
+            mn = min(mn, node.val) 
+            self.mx = max(mx - mn, self.mx)
+            helper(node.left,mn, mx) 
+            helper(node.right,mn, mx) 
         
         helper(root,root.val, root.val) 
         
