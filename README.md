@@ -6,6 +6,7 @@
 | ------- |
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
+| [0238-product-of-array-except-self](https://github.com/henok3878/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/henok3878/Leetcode_Solutions/tree/master/0274-h-index) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/henok3878/Leetcode_Solutions/tree/master/1293-three-consecutive-odds) |
@@ -103,4 +104,8 @@
 |  |
 | ------- |
 | [0274-h-index](https://github.com/henok3878/Leetcode_Solutions/tree/master/0274-h-index) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/henok3878/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
