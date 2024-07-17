@@ -14,19 +14,19 @@ class Solution:
                 return 
             l = node.left 
             r = node.right 
+            new_parent = node
             if node.val in to_delete:
+                new_parent = None 
                 if parent:
                     if(isL):
                         parent.left = None 
                     else:
                         parent.right = None 
-                dfs(l, None,True)
-                dfs(r, None, False)
-            else:
-                if parent is None:
+            elif parent is None:
                     ans.append(node) 
-                dfs(l, node, True)
-                dfs(r, node, False) 
+
+            dfs(l, new_parent, True)
+            dfs(r, new_parent, False) 
             
 
         dfs(root, None, False) 
