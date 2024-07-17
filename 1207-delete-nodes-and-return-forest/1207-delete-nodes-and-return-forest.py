@@ -6,32 +6,18 @@
 #         self.right = right
 class Solution:
     def delNodes(self, root: Optional[TreeNode], to_delete: List[int]) -> List[TreeNode]:
-        to_delete = set(to_delete) # O(n) 
+        to_delete = set(to_delete)
         ans = []
 
-        def dfs(node, parent, isL):
-            if node is None:
-                return 
-            l = node.left 
-            r = node.right 
-            new_parent = node
-            if node.val in to_delete:
-                new_parent = None 
-                if parent:
-                    if(isL):
-                        parent.left = None 
-                    else:
-                        parent.right = None 
-            elif parent is None:
-                    ans.append(node) 
+        def dfs(node, is_root):
+            if not node:
+                return None
+            root_deleted = node.val in to_delete
+            if is_root and not root_deleted:
+                ans.append(node)
+            node.left = dfs(node.left, root_deleted)
+            node.right = dfs(node.right, root_deleted)
+            return None if root_deleted else node
 
-            dfs(l, new_parent, True)
-            dfs(r, new_parent, False) 
-            
-
-        dfs(root, None, False) 
-
-        return ans 
-
-                
-
+        dfs(root, True)
+        return ans
