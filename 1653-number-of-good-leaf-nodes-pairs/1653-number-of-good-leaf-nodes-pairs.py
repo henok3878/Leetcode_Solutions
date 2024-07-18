@@ -8,7 +8,6 @@ class Solution:
     def countPairs(self, root: TreeNode, distance: int) -> int:
 
         ans = 0
-        
         def is_leaf(node):
             return node and node.left is None and node.right is None 
             
