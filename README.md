@@ -36,6 +36,7 @@
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/henok3878/Leetcode_Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/henok3878/Leetcode_Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/henok3878/Leetcode_Solutions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 ## Sorting
 |  |
 | ------- |
@@ -80,6 +81,7 @@
 | [1642-water-bottles](https://github.com/henok3878/Leetcode_Solutions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/henok3878/Leetcode_Solutions/tree/master/2645-pass-the-pillow) |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/henok3878/Leetcode_Solutions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 ## String
 |  |
 | ------- |
