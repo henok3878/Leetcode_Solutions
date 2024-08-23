@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/henok3878/Leetcode_Solutions/tree/master/0134-gas-station) |
@@ -28,6 +29,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
 | [1511-count-number-of-teams](https://github.com/henok3878/Leetcode_Solutions/tree/master/1511-count-number-of-teams) |
@@ -63,6 +65,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Binary Search
 |  |
@@ -100,6 +103,7 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/henok3878/Leetcode_Solutions/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/henok3878/Leetcode_Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -177,4 +181,8 @@
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
