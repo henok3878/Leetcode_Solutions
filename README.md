@@ -7,6 +7,7 @@
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/henok3878/Leetcode_Solutions/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/henok3878/Leetcode_Solutions/tree/master/0135-candy) |
 | [0238-product-of-array-except-self](https://github.com/henok3878/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/henok3878/Leetcode_Solutions/tree/master/0274-h-index) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -36,6 +37,7 @@
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/henok3878/Leetcode_Solutions/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/henok3878/Leetcode_Solutions/tree/master/0135-candy) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/henok3878/Leetcode_Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/henok3878/Leetcode_Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
