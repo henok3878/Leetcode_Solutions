@@ -4,7 +4,6 @@ class Solution:
         nums = [1000,900,500,400, 100,90, 50, 40, 10, 9, 5,4, 1] 
         ans = ""
         for i,val in enumerate(nums):
-            print("num: ", num)
             if num == 0:
                 break
             else:
