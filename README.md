@@ -101,6 +101,7 @@
 | ------- |
 | [0012-integer-to-roman](https://github.com/henok3878/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0013-roman-to-integer) |
+| [0058-length-of-last-word](https://github.com/henok3878/Leetcode_Solutions/tree/master/0058-length-of-last-word) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/henok3878/Leetcode_Solutions/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/henok3878/Leetcode_Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
