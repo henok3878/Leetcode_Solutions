@@ -56,6 +56,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/henok3878/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0013-roman-to-integer) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
@@ -88,6 +89,7 @@
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/henok3878/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0013-roman-to-integer) |
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1642-water-bottles](https://github.com/henok3878/Leetcode_Solutions/tree/master/1642-water-bottles) |
@@ -97,6 +99,7 @@
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/henok3878/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0013-roman-to-integer) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/henok3878/Leetcode_Solutions/tree/master/1720-crawler-log-folder) |
