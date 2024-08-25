@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
@@ -51,6 +52,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0015-3sum) |
 | [0274-h-index](https://github.com/henok3878/Leetcode_Solutions/tree/master/0274-h-index) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0948-sort-an-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0948-sort-an-array) |
@@ -72,6 +74,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0015-3sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/henok3878/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
