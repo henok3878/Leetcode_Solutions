@@ -9,6 +9,7 @@
 | [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
+| [0068-text-justification](https://github.com/henok3878/Leetcode_Solutions/tree/master/0068-text-justification) |
 | [0134-gas-station](https://github.com/henok3878/Leetcode_Solutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/henok3878/Leetcode_Solutions/tree/master/0135-candy) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -95,6 +96,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/henok3878/Leetcode_Solutions/tree/master/0068-text-justification) |
 | [1642-water-bottles](https://github.com/henok3878/Leetcode_Solutions/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/henok3878/Leetcode_Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -118,6 +120,7 @@
 | [0014-longest-common-prefix](https://github.com/henok3878/Leetcode_Solutions/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/henok3878/Leetcode_Solutions/tree/master/0058-length-of-last-word) |
+| [0068-text-justification](https://github.com/henok3878/Leetcode_Solutions/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/henok3878/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0392-is-subsequence) |
