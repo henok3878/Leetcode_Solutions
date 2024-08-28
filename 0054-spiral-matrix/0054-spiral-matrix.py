@@ -2,7 +2,6 @@ class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
 
         def helper(i,j,  n,  m):
-            # print("i:", i, "j:", j,"n:", n,"m:",m)
             if(n == 0 or m == 0): return []
 
             layer = []
