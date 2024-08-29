@@ -12,20 +12,16 @@ class Solution:
         q = deque() 
         q.append(0)
         visited[0] = True 
-        
-        step = 0
+        dist[0] = 0 
 
         while q:
-            size = len(q)
-            for _ in range(size):
-                curr = q.popleft() 
-                if curr == (n**2 - 1):
-                    return step
-                for nxt in range(curr + 1, min(n**2,curr + 7)):
-                    nxt = l[nxt] - 1 if l[nxt] > -1 else nxt 
-                    if not visited[nxt]:
-                        q.append(nxt) 
-                        visited[nxt] = True 
-            step += 1
-        return -1
+            curr = q.popleft() 
+            for nxt in range(curr + 1, min(n**2,curr + 7)):
+                if l[nxt] != -1:
+                    nxt = l[nxt] - 1
+                if not visited[nxt]:
+                    q.append(nxt) 
+                    visited[nxt] = True 
+                    dist[nxt] = dist[curr] + 1
+        return dist[n**2 - 1]
 
