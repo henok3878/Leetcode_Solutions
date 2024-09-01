@@ -5,9 +5,9 @@ class Solution:
         n = len(digits)
         if n == 0:
             return []
-            
+
         def helper(i, curr):
-            if i >= n:
+            if i == n:
                 ans.append(curr) 
                 return
             for c in mappings[digits[i]]:
