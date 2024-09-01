@@ -143,6 +143,7 @@
 | [0125-valid-palindrome](https://github.com/henok3878/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/henok3878/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0392-is-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0392-is-subsequence) |
 | [0433-minimum-genetic-mutation](https://github.com/henok3878/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -185,6 +186,7 @@
 | [0130-surrounded-regions](https://github.com/henok3878/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/henok3878/Leetcode_Solutions/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/henok3878/Leetcode_Solutions/tree/master/0200-number-of-islands) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/henok3878/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [1207-delete-nodes-and-return-forest](https://github.com/henok3878/Leetcode_Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/henok3878/Leetcode_Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -238,6 +240,7 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/henok3878/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 ## Randomized
 |  |
@@ -252,6 +255,7 @@
 | ------- |
 | [0014-longest-common-prefix](https://github.com/henok3878/Leetcode_Solutions/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/henok3878/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 ## String Matching
 |  |
 | ------- |
