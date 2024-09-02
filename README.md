@@ -107,6 +107,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0838-design-linked-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0838-design-linked-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/henok3878/Leetcode_Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/henok3878/Leetcode_Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Simulation
@@ -244,6 +245,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/henok3878/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0838-design-linked-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0838-design-linked-list) |
 ## Randomized
 |  |
 | ------- |
