@@ -9,26 +9,23 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        if not head:
-            return None
+        if not head: return None 
         mapping = {}
         temp = head 
-        def helper(curr_org):
-            if(curr_org is None):
-                return 
-            id1 = id(curr_org)
-            curr_cpy = mapping.setdefault(id1, Node(curr_org.val))
-            if(curr_org.next):
-                id2 = id(curr_org.next)
-                nxt_cpy = mapping.setdefault(id2, Node(curr_org.next.val))
-                curr_cpy.next = nxt_cpy
-            
-            if (curr_org.random):
-                id3 = id(curr_org.random) 
-                rnd_cpy = mapping.setdefault(id3,Node(curr_org.random.val)) 
-                curr_cpy.random = rnd_cpy 
-            
-            helper(curr_org.next)
+        while temp:
+            temp_cpy = Node(temp.val) 
+            mapping[id(temp)] = temp_cpy 
+            temp = temp.next 
 
-        helper(temp)
+        temp = head 
+        temp_cpy = mapping[id(temp)]
+        while temp_cpy:
+            if temp.random:
+                temp_cpy.random = mapping[id(temp.random)] 
+            if temp.next:
+                temp_cpy.next = mapping[id(temp.next)]
+            temp = temp.next 
+            temp_cpy = temp_cpy.next 
+        
         return mapping[id(head)]
+            
