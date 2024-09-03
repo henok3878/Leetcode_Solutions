@@ -78,6 +78,7 @@
 | [0036-valid-sudoku](https://github.com/henok3878/Leetcode_Solutions/tree/master/0036-valid-sudoku) |
 | [0076-minimum-window-substring](https://github.com/henok3878/Leetcode_Solutions/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/henok3878/Leetcode_Solutions/tree/master/0133-clone-graph) |
+| [0138-copy-list-with-random-pointer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/henok3878/Leetcode_Solutions/tree/master/0141-linked-list-cycle) |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -112,6 +113,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/henok3878/Leetcode_Solutions/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/henok3878/Leetcode_Solutions/tree/master/0021-merge-two-sorted-lists) |
+| [0138-copy-list-with-random-pointer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/henok3878/Leetcode_Solutions/tree/master/0141-linked-list-cycle) |
 | [0838-design-linked-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0908-middle-of-the-linked-list) |
