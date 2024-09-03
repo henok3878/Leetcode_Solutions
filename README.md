@@ -100,6 +100,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0392-is-subsequence) |
+| [0908-middle-of-the-linked-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0908-middle-of-the-linked-list) |
 ## Binary Search
 |  |
 | ------- |
@@ -111,6 +112,7 @@
 | ------- |
 | [0141-linked-list-cycle](https://github.com/henok3878/Leetcode_Solutions/tree/master/0141-linked-list-cycle) |
 | [0838-design-linked-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0838-design-linked-list) |
+| [0908-middle-of-the-linked-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0908-middle-of-the-linked-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/henok3878/Leetcode_Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/henok3878/Leetcode_Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Simulation
