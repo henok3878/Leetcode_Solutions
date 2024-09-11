@@ -20,7 +20,6 @@ class Solution:
             return True 
         
         for i in range(n):
-            if i not in visited:
-                if not dfs(i, set()):
-                    return False 
+          if not dfs(i, set()):
+                return False 
         return True 
