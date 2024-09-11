@@ -94,6 +94,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0015-3sum) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/henok3878/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
@@ -113,6 +114,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/henok3878/Leetcode_Solutions/tree/master/0002-add-two-numbers) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/henok3878/Leetcode_Solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0092-reverse-linked-list-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0092-reverse-linked-list-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0138-copy-list-with-random-pointer) |
