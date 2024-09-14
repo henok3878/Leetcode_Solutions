@@ -3,13 +3,11 @@ class Solution:
         mx = max(nums)
         cnt = 0 
         ans = 0 
-        i = 0 
-        while i < len(nums):
-            if (mx & nums[i] >= mx):
+        for num in nums:
+            if mx == num:
                 cnt += 1 
             else:
-                cnt = 0
-            ans = max(ans, cnt)
-            i += 1 
-
+                cnt = 0 
+            ans = max(ans, cnt) 
+            
         return ans 
