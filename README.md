@@ -201,6 +201,7 @@
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0226-invert-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/henok3878/Leetcode_Solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -211,6 +212,7 @@
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0226-invert-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/henok3878/Leetcode_Solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -221,6 +223,7 @@
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0130-surrounded-regions](https://github.com/henok3878/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/henok3878/Leetcode_Solutions/tree/master/0133-clone-graph) |
@@ -314,6 +317,7 @@
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0130-surrounded-regions](https://github.com/henok3878/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/henok3878/Leetcode_Solutions/tree/master/0133-clone-graph) |
