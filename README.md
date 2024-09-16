@@ -83,6 +83,7 @@
 | [0133-clone-graph](https://github.com/henok3878/Leetcode_Solutions/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/henok3878/Leetcode_Solutions/tree/master/0141-linked-list-cycle) |
+| [0202-happy-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
@@ -103,6 +104,7 @@
 | [0141-linked-list-cycle](https://github.com/henok3878/Leetcode_Solutions/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0202-happy-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0392-is-subsequence) |
 | [0908-middle-of-the-linked-list](https://github.com/henok3878/Leetcode_Solutions/tree/master/0908-middle-of-the-linked-list) |
@@ -142,6 +144,7 @@
 | [0012-integer-to-roman](https://github.com/henok3878/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/henok3878/Leetcode_Solutions/tree/master/0048-rotate-image) |
+| [0202-happy-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1642-water-bottles](https://github.com/henok3878/Leetcode_Solutions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
