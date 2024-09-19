@@ -10,6 +10,6 @@ class Solution:
         nums = [CustomInt(num) for num in nums] 
         nums.sort(reverse = True) 
         res = "".join([str(num) for num in nums])
-        if (len(set(res)) == 1 and res[0] == '0'):
-            return "0" 
+        if res[0] == '0':
+            res = '0'
         return res 
