@@ -9,7 +9,6 @@ class Solution:
     def largestNumber(self, nums: List[int]) -> str:
         nums = [CustomInt(num) for num in nums] 
         nums.sort(reverse = True) 
-        res = "".join([str(num) for num in nums])
-        if res[0] == '0':
-            res = '0'
-        return res 
+        if str(nums[0]) == '0':
+            return '0'
+        return "".join([str(num) for num in nums])
