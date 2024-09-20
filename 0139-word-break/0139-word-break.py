@@ -7,14 +7,14 @@ class Solution:
         words = set(wordDict) 
         n = len(s)
         @cache
-        def helper(curr_s):
-            if curr_s == "":
+        def helper(i):
+            if i == n:
                 return True 
             else:
                 res = False
-                for i in range(len(curr_s)):
-                    word = curr_s[:i + 1] 
+                for j in range(i, n):
+                    word = s[i:j + 1] 
                     if word in words:
-                        res = res or helper(curr_s[i + 1: ])
+                        res = res or helper(j + 1)
                 return res 
-        return helper(s)
+        return helper(0)
