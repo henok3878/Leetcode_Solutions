@@ -16,6 +16,7 @@
 | [0130-surrounded-regions](https://github.com/henok3878/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/henok3878/Leetcode_Solutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/henok3878/Leetcode_Solutions/tree/master/0135-candy) |
+| [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/henok3878/Leetcode_Solutions/tree/master/0198-house-robber) |
@@ -49,6 +50,7 @@
 | [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
+| [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/henok3878/Leetcode_Solutions/tree/master/0198-house-robber) |
 | [0392-is-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0392-is-subsequence) |
 | [1511-count-number-of-teams](https://github.com/henok3878/Leetcode_Solutions/tree/master/1511-count-number-of-teams) |
@@ -87,6 +89,7 @@
 | [0076-minimum-window-substring](https://github.com/henok3878/Leetcode_Solutions/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/henok3878/Leetcode_Solutions/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/henok3878/Leetcode_Solutions/tree/master/0141-linked-list-cycle) |
 | [0202-happy-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
@@ -171,6 +174,7 @@
 | [0071-simplify-path](https://github.com/henok3878/Leetcode_Solutions/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/henok3878/Leetcode_Solutions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/henok3878/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
@@ -307,6 +311,7 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/henok3878/Leetcode_Solutions/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/henok3878/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 ## String Matching
@@ -376,4 +381,8 @@
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
