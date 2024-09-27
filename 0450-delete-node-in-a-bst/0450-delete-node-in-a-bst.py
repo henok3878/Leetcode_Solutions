@@ -26,13 +26,12 @@ class Solution:
             if is_leaf(root):
                 return None 
             elif root.right:
-                mn = get_min(root.right)
-                root.val = mn 
-                root.right = self.deleteNode(root.right,mn)
+                root.val = get_min(root.right)
+                root.right = self.deleteNode(root.right,root.val)
             else:
-                mx = get_max(root.left) 
-                root.val = mx 
-                root.left = self.deleteNode(root.left, mx) 
+                root.val = get_max(root.left) 
+                root.left = self.deleteNode(root.left, root.val)
+                 
         elif key < root.val:
             root.left = self.deleteNode(root.left, key) 
         else:
