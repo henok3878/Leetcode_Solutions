@@ -1,0 +1,43 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
+        if root is None:
+            return
+
+        def is_leaf(node):
+            return node.left is None and node.right is None 
+
+        def get_min(node):
+            if node.left:
+                return get_min(node.left)
+            return node.val
+
+        def get_max(node):
+            if node.right:
+                return get_max(node.right)
+            return node.val 
+
+        if root.val == key:
+            if is_leaf(root):
+                return None 
+            elif root.right:
+                mn = get_min(root.right)
+                root.val = mn 
+                root.right = self.deleteNode(root.right,mn)
+            else:
+                mx = get_max(root.left) 
+                root.val = mx 
+                root.left = self.deleteNode(root.left, mx) 
+        elif key < root.val:
+            root.left = self.deleteNode(root.left, key) 
+        else:
+            root.right = self.deleteNode(root.right, key) 
+
+        return root 
+
+        
