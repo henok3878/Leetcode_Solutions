@@ -17,11 +17,6 @@ class Solution:
                 return get_min(node.left)
             return node.val
 
-        def get_max(node):
-            if node.right:
-                return get_max(node.right)
-            return node.val 
-
         if root.val == key:
             if is_leaf(root):
                 return None 
@@ -29,9 +24,8 @@ class Solution:
                 root.val = get_min(root.right)
                 root.right = self.deleteNode(root.right,root.val)
             else:
-                root.val = get_max(root.left) 
-                root.left = self.deleteNode(root.left, root.val)
-                 
+                root = root.left
+
         elif key < root.val:
             root.left = self.deleteNode(root.left, key) 
         else:
