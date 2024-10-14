@@ -41,6 +41,7 @@
 | [1741-sort-array-by-increasing-frequency](https://github.com/henok3878/Leetcode_Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/henok3878/Leetcode_Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/henok3878/Leetcode_Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -163,6 +164,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1642-water-bottles](https://github.com/henok3878/Leetcode_Solutions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2645-pass-the-pillow](https://github.com/henok3878/Leetcode_Solutions/tree/master/2645-pass-the-pillow) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/henok3878/Leetcode_Solutions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
@@ -259,6 +261,7 @@
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
 | [1207-delete-nodes-and-return-forest](https://github.com/henok3878/Leetcode_Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/henok3878/Leetcode_Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Counting Sort
 |  |
@@ -356,6 +359,7 @@
 | [0433-minimum-genetic-mutation](https://github.com/henok3878/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0945-snakes-and-ladders](https://github.com/henok3878/Leetcode_Solutions/tree/master/0945-snakes-and-ladders) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Union Find
 |  |
@@ -369,6 +373,7 @@
 | [0133-clone-graph](https://github.com/henok3878/Leetcode_Solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/henok3878/Leetcode_Solutions/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
+| [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Backtracking
 |  |
 | ------- |
@@ -408,4 +413,8 @@
 | [0450-delete-node-in-a-bst](https://github.com/henok3878/Leetcode_Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0784-insert-into-a-binary-search-tree) |
+## Geometry
+|  |
+| ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 <!---LeetCode Topics End-->
