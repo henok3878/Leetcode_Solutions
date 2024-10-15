@@ -1,13 +1,20 @@
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         n = len(cost)
-        @cache 
+        memo = {}
+
         def helper(idx):
             if idx >= n:
                 return 0
+            if idx in memo:
+                return memo[idx]
+                
             curr_cost = cost[idx] 
             future_cost = min(helper(idx + 1), helper(idx + 2))
-            return curr_cost + future_cost 
+            total_cost = curr_cost + future_cost 
+            memo[idx] = total_cost 
+
+            return total_cost 
 
         return min(helper(0), helper(1))
 
