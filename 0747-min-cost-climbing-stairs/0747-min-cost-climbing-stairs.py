@@ -2,21 +2,11 @@ class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         n = len(cost)
         memo = {}
-
-        def helper(idx):
-            if idx >= n:
-                return 0
-            if idx in memo:
-                return memo[idx]
-                
-            curr_cost = cost[idx] 
-            future_cost = min(helper(idx + 1), helper(idx + 2))
-            total_cost = curr_cost + future_cost 
-            memo[idx] = total_cost 
-
-            return total_cost 
-
-        return min(helper(0), helper(1))
+        memo[n] = 0
+        memo[n + 1] = 0
+        for i in range(n - 1, -1,-1):
+            memo[i] = min(memo[i + 1], memo[i + 2]) + cost[i]
+        return min(memo[0], memo[1])
 
     
 
@@ -29,4 +19,10 @@ for each index, explore both cases (climb one stair & climbing two stairs)
     Unique indeces: n
 
     total nodes: 2 ** n 
+
+-----> go down (This is just calling smaller subproblems)
+<----- go up (This is where we actually do the work)
+
+0 -> [1, 2] 
+1 -> [2, 3] -
 '''
