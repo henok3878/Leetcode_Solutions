@@ -57,6 +57,7 @@
 | [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/henok3878/Leetcode_Solutions/tree/master/0062-unique-paths) |
 | [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/henok3878/Leetcode_Solutions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/henok3878/Leetcode_Solutions/tree/master/0322-coin-change) |
@@ -165,6 +166,7 @@
 | [0012-integer-to-roman](https://github.com/henok3878/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/henok3878/Leetcode_Solutions/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/henok3878/Leetcode_Solutions/tree/master/0062-unique-paths) |
 | [0202-happy-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1642-water-bottles](https://github.com/henok3878/Leetcode_Solutions/tree/master/1642-water-bottles) |
@@ -425,4 +427,8 @@
 |  |
 | ------- |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/henok3878/Leetcode_Solutions/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
