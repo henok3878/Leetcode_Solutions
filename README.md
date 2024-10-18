@@ -12,6 +12,7 @@
 | [0048-rotate-image](https://github.com/henok3878/Leetcode_Solutions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
+| [0064-minimum-path-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0064-minimum-path-sum) |
 | [0068-text-justification](https://github.com/henok3878/Leetcode_Solutions/tree/master/0068-text-justification) |
 | [0130-surrounded-regions](https://github.com/henok3878/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/henok3878/Leetcode_Solutions/tree/master/0134-gas-station) |
@@ -59,6 +60,7 @@
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/henok3878/Leetcode_Solutions/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0064-minimum-path-sum) |
 | [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/henok3878/Leetcode_Solutions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/henok3878/Leetcode_Solutions/tree/master/0322-coin-change) |
@@ -289,6 +291,7 @@
 | [0036-valid-sudoku](https://github.com/henok3878/Leetcode_Solutions/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/henok3878/Leetcode_Solutions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/henok3878/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/henok3878/Leetcode_Solutions/tree/master/0200-number-of-islands) |
 | [0945-snakes-and-ladders](https://github.com/henok3878/Leetcode_Solutions/tree/master/0945-snakes-and-ladders) |
