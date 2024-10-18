@@ -1,24 +1,25 @@
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
-
         n = len(prices)
-        no_stock = 0
-        have_stock = -prices[0]
-        for i in range(1,n):
-            prev_have_stock = have_stock 
-            prev_no_stock = no_stock 
-            have_stock = max(prev_have_stock, no_stock - prices[i]) 
-            no_stock= max(prev_no_stock, have_stock + prices[i] - fee) 
-        
-        return max(no_stock, have_stock)
-
-
+        @cache 
+        def helper(day, have_stock):
+            if day >= n:
+                return 0
+            if have_stock:
+                # sell or do nothing 
+                return max(helper(day + 1, False) + prices[day] - fee, helper(day + 1,True)) 
+            else:
+                # buy or do nothing 
+                return max(helper(day + 1, True) - prices[day], helper(day + 1, False)) 
+        return helper(0,False)
 """
-For each day we can choose:
-- to Sell if we have stock already 
-- to Buy if we don't have a stock 
-- to do nothing 
+I have to choices:
+    1. Buy if i have no stock 
+    2. Sell if I have stock 
+    3. Skip (no trade)
 
+    (day, have_stock = True/ False)
 
-have, don't have
+    have_stock == -1, we don't have any stock 
+    if have stock > 0 we have stock 
 """
