@@ -1,29 +1,28 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         n = len(prices)
-
-        @cache 
-        def helper(day,have_stock,sold_yesterday):
-            if day == n:
-                return 0
-            do_nothing = helper(day + 1, have_stock, False) 
-            trade_outcome = 0
-            if have_stock:
-                trade_outcome = helper(day + 1, False, True) + prices[day] # sell 
-            elif not sold_yesterday:
-                trade_outcome = helper(day + 1, True, False) - prices[day] # buy 
-            
-            return max(do_nothing,trade_outcome) 
-
-        return helper(0,False, False)
-
-   
-                
-
-
-
-
         
+        dp = [[[0 for _ in range(2)] for _ in range(2)] for _ in range(n+1)]
+
+        for day in range(n-1, -1, -1):
+            for have_stock in range(2):
+                for sold_yesterday in range(2):
+                    # Option 1: Do nothing
+                    do_nothing = dp[day+1][have_stock][0]
+                    
+                    # Option 2: Trade (either buy or sell)
+                    trade_outcome = 0
+                    if have_stock:
+                        trade_outcome = dp[day+1][0][1] + prices[day] # sell
+                    elif not sold_yesterday:
+                        trade_outcome = dp[day+1][1][0] - prices[day] # buy
+
+                    dp[day][have_stock][sold_yesterday] = max(do_nothing, trade_outcome)
+        
+        return dp[0][0][0]
+
+
+
 
 
 """
@@ -40,8 +39,9 @@ class Solution:
 1. I have stock
 2. I don't have a sotck and sold it ont this day 
 
-X: as i don't a stock but sold it on the X'th day 
-0: I have stock on my hand 
+0: have no stock and sold it before yesterday 
+1; have no stock and solde it yesterday 
+2: have stock 
 
 (day, state): # state = n, day = n 
     -> do nothing 
