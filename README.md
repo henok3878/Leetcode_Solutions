@@ -29,6 +29,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
 | [0494-target-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0494-target-sum) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/henok3878/Leetcode_Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0945-snakes-and-ladders](https://github.com/henok3878/Leetcode_Solutions/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0948-sort-an-array) |
@@ -63,6 +64,7 @@
 | [0322-coin-change](https://github.com/henok3878/Leetcode_Solutions/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0392-is-subsequence) |
 | [0494-target-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0494-target-sum) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/henok3878/Leetcode_Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [1511-count-number-of-teams](https://github.com/henok3878/Leetcode_Solutions/tree/master/1511-count-number-of-teams) |
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
@@ -75,6 +77,7 @@
 | [0134-gas-station](https://github.com/henok3878/Leetcode_Solutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/henok3878/Leetcode_Solutions/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0179-largest-number) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/henok3878/Leetcode_Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/henok3878/Leetcode_Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/henok3878/Leetcode_Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
