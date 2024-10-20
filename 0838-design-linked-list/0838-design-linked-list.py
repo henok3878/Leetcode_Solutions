@@ -21,7 +21,12 @@ class MyLinkedList:
         return temp.val
 
     def addAtHead(self, val: int) -> None:
-        self.addAtIndex(0,val)
+        new_node = Node(val) 
+        new_node.nxt = self.dummy_head.nxt 
+        self.dummy_head.nxt = new_node 
+        self.size += 1
+        if(self.size == 1):
+            self.tail = new_node
 
     def addAtTail(self, val: int) -> None:
         new_node = Node(val) 
