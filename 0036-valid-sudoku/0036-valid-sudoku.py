@@ -2,6 +2,12 @@ class Solution:
     def isValidSudoku(self, grid: List[List[str]]) -> bool:
         n = len(grid) # num of rows 
         m = len(grid[0]) # num of cols
+        
+        def get_kth_bit(x, k):
+            return (x >> k) & 1
+        def set_kth_bit(x, k):
+            return x | ( 1 << k)
+            
 
         def is_subgrid_valid(x,y): 
             '''
@@ -21,15 +27,15 @@ class Solution:
             for j in range(0, m, 3):
                 if not is_subgrid_valid(i,j):
                     return False 
-        cols_info = [[False] * 10 for _ in range(m)]
+        cols_info = [0 for _ in range(m)]
         for i in range(n):    
             curr_row = [False] * 10 
             for j in range(m):
                 if grid[i][j] != '.':
                     val = int(grid[i][j]) 
-                    if curr_row[val] or cols_info[j][val]:
+                    if curr_row[val] or get_kth_bit(cols_info[j],val):
                         return False 
-                    cols_info[j][val] = True 
+                    cols_info[j] = set_kth_bit(cols_info[j], val)
                     curr_row[val] = True 
         return True 
 
