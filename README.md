@@ -57,6 +57,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/henok3878/Leetcode_Solutions/tree/master/0010-regular-expression-matching) |
 | [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/henok3878/Leetcode_Solutions/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
@@ -190,6 +191,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/henok3878/Leetcode_Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0010-regular-expression-matching](https://github.com/henok3878/Leetcode_Solutions/tree/master/0010-regular-expression-matching) |
 | [0012-integer-to-roman](https://github.com/henok3878/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/henok3878/Leetcode_Solutions/tree/master/0014-longest-common-prefix) |
@@ -232,6 +234,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/henok3878/Leetcode_Solutions/tree/master/0002-add-two-numbers) |
+| [0010-regular-expression-matching](https://github.com/henok3878/Leetcode_Solutions/tree/master/0010-regular-expression-matching) |
 | [0021-merge-two-sorted-lists](https://github.com/henok3878/Leetcode_Solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0044-wildcard-matching](https://github.com/henok3878/Leetcode_Solutions/tree/master/0044-wildcard-matching) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
