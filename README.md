@@ -53,6 +53,7 @@
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2574-count-subarrays-with-median-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2574-count-subarrays-with-median-k) |
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
 | [3541-report-spam-message](https://github.com/henok3878/Leetcode_Solutions/tree/master/3541-report-spam-message) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Dynamic Programming
@@ -102,6 +103,7 @@
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/henok3878/Leetcode_Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/henok3878/Leetcode_Solutions/tree/master/2502-sort-the-people) |
+| [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
 ## Hash Table
 |  |
 | ------- |
@@ -190,6 +192,7 @@
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2645-pass-the-pillow](https://github.com/henok3878/Leetcode_Solutions/tree/master/2645-pass-the-pillow) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/henok3878/Leetcode_Solutions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
+| [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## String
 |  |
@@ -453,8 +456,13 @@
 |  |
 | ------- |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
+| [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
 ## Combinatorics
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/henok3878/Leetcode_Solutions/tree/master/0062-unique-paths) |
+## Ordered Set
+|  |
+| ------- |
+| [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
 <!---LeetCode Topics End-->
