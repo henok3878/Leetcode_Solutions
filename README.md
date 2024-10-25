@@ -39,6 +39,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1207-delete-nodes-and-return-forest](https://github.com/henok3878/Leetcode_Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/henok3878/Leetcode_Solutions/tree/master/1293-three-consecutive-odds) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/henok3878/Leetcode_Solutions/tree/master/1511-count-number-of-teams) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -74,6 +75,7 @@
 | [0494-target-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0494-target-sum) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/henok3878/Leetcode_Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/0747-min-cost-climbing-stairs) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1511-count-number-of-teams](https://github.com/henok3878/Leetcode_Solutions/tree/master/1511-count-number-of-teams) |
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
 ## Greedy
@@ -100,6 +102,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/henok3878/Leetcode_Solutions/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0948-sort-an-array) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/henok3878/Leetcode_Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/henok3878/Leetcode_Solutions/tree/master/2502-sort-the-people) |
@@ -154,6 +157,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1023-time-based-key-value-store](https://github.com/henok3878/Leetcode_Solutions/tree/master/1023-time-based-key-value-store) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Linked List
 |  |
 | ------- |
