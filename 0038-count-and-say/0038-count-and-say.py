@@ -1,7 +1,5 @@
 class Solution:
     def countAndSay(self, n: int) -> str:
-        if n == 1:
-            return "1" 
         curr = "1"
         for _ in range(1,n):
             say = ""
