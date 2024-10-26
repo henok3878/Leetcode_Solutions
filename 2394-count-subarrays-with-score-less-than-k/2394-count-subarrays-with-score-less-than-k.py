@@ -5,7 +5,7 @@ class Solution:
         n = len(nums) 
         ans = 0
         curr_sum = 0
-        nums.append(float('inf'))
+      
         for right in range(n):
             curr_sum += nums[right] 
             size = right - left + 1 
