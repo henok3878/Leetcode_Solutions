@@ -1,35 +1,30 @@
 class Solution:
     def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
         jobs = [(st, end, proft) for st, end, proft in zip(startTime, endTime, profit)]
-        jobs.sort(key = lambda x: (x[1], x[0]))
-        stack = []
-        ans = 0
-        for i in range(len(jobs)):
-            st, end, profit = jobs[i]
-            # print("stack: ", stack, "st,end", st, end)
-            if len(stack) == 0:
-                stack.append((end, profit))
-            else:
-                best_prev = 0
-                l = 0 
-                h = len(stack) - 1 
-                while l <= h:
-                    mid = (l + h) // 2 
-                    if stack[mid][0] <= st:
-                        best_prev = stack[mid][1] 
-                        l = mid + 1 
-                    else:
-                        h = mid - 1 
-                curr_profit = best_prev + profit
+        jobs.sort() 
 
-                # print("curr_profit: ", curr_profit, "st,end", st, end, "profit[i]:",profit)
-                if curr_profit > stack[-1][-1]:
-                    stack.append((end, curr_profit)) 
-            ans = max(ans, stack[-1][-1])
-        return ans
+        def find_next(i):
+            st,end, _ = jobs[i]
+            l = i + 1
+            h = len(jobs) - 1 
+            nxt = len(jobs)
+            while l <= h: 
+                mid = (l + h) // 2 
+                if jobs[mid][0] >= end:
+                    nxt = mid 
+                    h = mid - 1 
+                else:
+                    l = mid + 1 
+            return nxt 
+
+        @cache 
+        def helper(i):
+            if i >= len(jobs):
+                return 0 
+            nxt = find_next(i) 
+            skip = helper(i + 1) 
+            choose = helper(nxt) + jobs[i][-1] 
+
+            return max(skip, choose) 
         
-"""
-given (end_time, i) for each job we have two options:
-
-
-"""
+        return helper(0)
