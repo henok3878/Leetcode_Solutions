@@ -234,6 +234,7 @@
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/henok3878/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0726-number-of-atoms](https://github.com/henok3878/Leetcode_Solutions/tree/master/0726-number-of-atoms) |
+| [0812-rotate-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0812-rotate-string) |
 | [1023-time-based-key-value-store](https://github.com/henok3878/Leetcode_Solutions/tree/master/1023-time-based-key-value-store) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/henok3878/Leetcode_Solutions/tree/master/1720-crawler-log-folder) |
@@ -390,6 +391,7 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0812-rotate-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0812-rotate-string) |
 ## Sliding Window
 |  |
 | ------- |
