@@ -57,6 +57,7 @@
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2574-count-subarrays-with-median-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2574-count-subarrays-with-median-k) |
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [3291-find-if-array-can-be-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
 | [3541-report-spam-message](https://github.com/henok3878/Leetcode_Solutions/tree/master/3541-report-spam-message) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
@@ -112,6 +113,7 @@
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/henok3878/Leetcode_Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/henok3878/Leetcode_Solutions/tree/master/2502-sort-the-people) |
+| [3291-find-if-array-can-be-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
 ## Hash Table
 |  |
@@ -450,6 +452,7 @@
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [3291-find-if-array-can-be-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Game Theory
 |  |
