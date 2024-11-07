@@ -52,6 +52,7 @@
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/henok3878/Leetcode_Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2502-sort-the-people](https://github.com/henok3878/Leetcode_Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -138,6 +139,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/henok3878/Leetcode_Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/henok3878/Leetcode_Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/henok3878/Leetcode_Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2502-sort-the-people](https://github.com/henok3878/Leetcode_Solutions/tree/master/2502-sort-the-people) |
 | [2574-count-subarrays-with-median-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2574-count-subarrays-with-median-k) |
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
@@ -321,6 +323,7 @@
 | ------- |
 | [0274-h-index](https://github.com/henok3878/Leetcode_Solutions/tree/master/0274-h-index) |
 | [0948-sort-an-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0948-sort-an-array) |
+| [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/henok3878/Leetcode_Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -451,6 +454,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/henok3878/Leetcode_Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3291-find-if-array-can-be-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
