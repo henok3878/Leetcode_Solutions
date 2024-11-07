@@ -241,6 +241,7 @@
 | [0812-rotate-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0812-rotate-string) |
 | [1023-time-based-key-value-store](https://github.com/henok3878/Leetcode_Solutions/tree/master/1023-time-based-key-value-store) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1720-crawler-log-folder](https://github.com/henok3878/Leetcode_Solutions/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/henok3878/Leetcode_Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/henok3878/Leetcode_Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
