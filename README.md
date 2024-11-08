@@ -49,6 +49,7 @@
 | [1741-sort-array-by-increasing-frequency](https://github.com/henok3878/Leetcode_Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1803-average-waiting-time](https://github.com/henok3878/Leetcode_Solutions/tree/master/1803-average-waiting-time) |
+| [1940-maximum-xor-for-each-query](https://github.com/henok3878/Leetcode_Solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -330,6 +331,7 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/henok3878/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
+| [1940-maximum-xor-for-each-query](https://github.com/henok3878/Leetcode_Solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2574-count-subarrays-with-median-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2574-count-subarrays-with-median-k) |
 ## Matrix
@@ -455,6 +457,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [1940-maximum-xor-for-each-query](https://github.com/henok3878/Leetcode_Solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/henok3878/Leetcode_Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3291-find-if-array-can-be-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/3291-find-if-array-can-be-sorted) |
