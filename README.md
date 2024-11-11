@@ -61,6 +61,7 @@
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3291-find-if-array-can-be-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3541-report-spam-message](https://github.com/henok3878/Leetcode_Solutions/tree/master/3541-report-spam-message) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Dynamic Programming
@@ -409,6 +410,7 @@
 | [0076-minimum-window-substring](https://github.com/henok3878/Leetcode_Solutions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -461,6 +463,7 @@
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/henok3878/Leetcode_Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3291-find-if-array-can-be-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/3291-find-if-array-can-be-sorted) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/henok3878/Leetcode_Solutions/tree/master/3394-minimum-array-end) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Game Theory
