@@ -58,6 +58,7 @@
 | [2502-sort-the-people](https://github.com/henok3878/Leetcode_Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2574-count-subarrays-with-median-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2574-count-subarrays-with-median-k) |
+| [2716-prime-subtraction-operation](https://github.com/henok3878/Leetcode_Solutions/tree/master/2716-prime-subtraction-operation) |
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3291-find-if-array-can-be-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
@@ -103,6 +104,7 @@
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/henok3878/Leetcode_Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/henok3878/Leetcode_Solutions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
+| [2716-prime-subtraction-operation](https://github.com/henok3878/Leetcode_Solutions/tree/master/2716-prime-subtraction-operation) |
 ## Sorting
 |  |
 | ------- |
@@ -173,6 +175,7 @@
 | [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2716-prime-subtraction-operation](https://github.com/henok3878/Leetcode_Solutions/tree/master/2716-prime-subtraction-operation) |
 ## Linked List
 |  |
 | ------- |
@@ -211,6 +214,7 @@
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2645-pass-the-pillow](https://github.com/henok3878/Leetcode_Solutions/tree/master/2645-pass-the-pillow) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/henok3878/Leetcode_Solutions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
+| [2716-prime-subtraction-operation](https://github.com/henok3878/Leetcode_Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## String
@@ -501,4 +505,8 @@
 |  |
 | ------- |
 | [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
+## Number Theory
+|  |
+| ------- |
+| [2716-prime-subtraction-operation](https://github.com/henok3878/Leetcode_Solutions/tree/master/2716-prime-subtraction-operation) |
 <!---LeetCode Topics End-->
