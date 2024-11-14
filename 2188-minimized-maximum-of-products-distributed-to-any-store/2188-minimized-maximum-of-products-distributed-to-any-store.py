@@ -1,7 +1,7 @@
 class Solution:
     def minimizedMaximum(self, n: int, quantities: List[int]) -> int:
         
-        def isPos(x):
+        def is_pos(x):
             stores = 0 
             for q in quantities:
                 stores += (q + (x - 1)) // x
@@ -12,7 +12,7 @@ class Solution:
         best = high
         while low <= high:
             mid = (low + high) // 2 
-            if(isPos(mid)):
+            if(is_pos(mid)):
                 best = mid 
                 high = mid - 1 
             else:
