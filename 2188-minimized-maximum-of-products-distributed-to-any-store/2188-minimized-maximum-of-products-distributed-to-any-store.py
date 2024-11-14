@@ -8,7 +8,7 @@ class Solution:
             return stores <= n 
 
         low = 1 
-        high = 10**5
+        high = max(quantities)
         best = high
         while low <= high:
             mid = (low + high) // 2 
