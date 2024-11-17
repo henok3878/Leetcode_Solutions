@@ -66,6 +66,7 @@
 | [3291-find-if-array-can-be-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3344-minimize-manhattan-distances](https://github.com/henok3878/Leetcode_Solutions/tree/master/3344-minimize-manhattan-distances) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/henok3878/Leetcode_Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3541-report-spam-message](https://github.com/henok3878/Leetcode_Solutions/tree/master/3541-report-spam-message) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Dynamic Programming
@@ -424,6 +425,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/henok3878/Leetcode_Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Breadth-First Search
 |  |
 | ------- |
