@@ -36,6 +36,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0945-snakes-and-ladders](https://github.com/henok3878/Leetcode_Solutions/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0948-sort-an-array) |
+| [1022-unique-paths-iii](https://github.com/henok3878/Leetcode_Solutions/tree/master/1022-unique-paths-iii) |
 | [1036-rotting-oranges](https://github.com/henok3878/Leetcode_Solutions/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1207-delete-nodes-and-return-forest](https://github.com/henok3878/Leetcode_Solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -361,6 +362,7 @@
 | [0130-surrounded-regions](https://github.com/henok3878/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/henok3878/Leetcode_Solutions/tree/master/0200-number-of-islands) |
 | [0945-snakes-and-ladders](https://github.com/henok3878/Leetcode_Solutions/tree/master/0945-snakes-and-ladders) |
+| [1022-unique-paths-iii](https://github.com/henok3878/Leetcode_Solutions/tree/master/1022-unique-paths-iii) |
 | [1036-rotting-oranges](https://github.com/henok3878/Leetcode_Solutions/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -466,6 +468,7 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0494-target-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0494-target-sum) |
+| [1022-unique-paths-iii](https://github.com/henok3878/Leetcode_Solutions/tree/master/1022-unique-paths-iii) |
 ## Shortest Path
 |  |
 | ------- |
@@ -477,6 +480,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [1022-unique-paths-iii](https://github.com/henok3878/Leetcode_Solutions/tree/master/1022-unique-paths-iii) |
 | [1940-maximum-xor-for-each-query](https://github.com/henok3878/Leetcode_Solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/henok3878/Leetcode_Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
