@@ -34,6 +34,7 @@
 | [0494-target-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0494-target-sum) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/henok3878/Leetcode_Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/0747-min-cost-climbing-stairs) |
+| [0792-binary-search](https://github.com/henok3878/Leetcode_Solutions/tree/master/0792-binary-search) |
 | [0945-snakes-and-ladders](https://github.com/henok3878/Leetcode_Solutions/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0948-sort-an-array) |
 | [1022-unique-paths-iii](https://github.com/henok3878/Leetcode_Solutions/tree/master/1022-unique-paths-iii) |
@@ -181,6 +182,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0792-binary-search](https://github.com/henok3878/Leetcode_Solutions/tree/master/0792-binary-search) |
 | [1023-time-based-key-value-store](https://github.com/henok3878/Leetcode_Solutions/tree/master/1023-time-based-key-value-store) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
