@@ -62,6 +62,7 @@
 | [2306-create-binary-tree-from-descriptions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/henok3878/Leetcode_Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2472-build-a-matrix-with-conditions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/henok3878/Leetcode_Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/henok3878/Leetcode_Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/henok3878/Leetcode_Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -379,6 +380,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/henok3878/Leetcode_Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2472-build-a-matrix-with-conditions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -476,6 +478,7 @@
 | [0207-course-schedule](https://github.com/henok3878/Leetcode_Solutions/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
+| [2472-build-a-matrix-with-conditions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Backtracking
 |  |
 | ------- |
@@ -492,6 +495,7 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/henok3878/Leetcode_Solutions/tree/master/0207-course-schedule) |
+| [2472-build-a-matrix-with-conditions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Bit Manipulation
 |  |
 | ------- |
