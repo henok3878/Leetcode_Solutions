@@ -550,4 +550,8 @@
 |  |
 | ------- |
 | [2716-prime-subtraction-operation](https://github.com/henok3878/Leetcode_Solutions/tree/master/2716-prime-subtraction-operation) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/henok3878/Leetcode_Solutions/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
