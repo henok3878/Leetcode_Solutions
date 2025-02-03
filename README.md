@@ -349,6 +349,7 @@
 | [0211-design-add-and-search-words-data-structure](https://github.com/henok3878/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0226-invert-binary-tree) |
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
+| [0801-is-graph-bipartite](https://github.com/henok3878/Leetcode_Solutions/tree/master/0801-is-graph-bipartite) |
 | [1207-delete-nodes-and-return-forest](https://github.com/henok3878/Leetcode_Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
@@ -462,6 +463,7 @@
 | [0322-coin-change](https://github.com/henok3878/Leetcode_Solutions/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/henok3878/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
+| [0801-is-graph-bipartite](https://github.com/henok3878/Leetcode_Solutions/tree/master/0801-is-graph-bipartite) |
 | [0945-snakes-and-ladders](https://github.com/henok3878/Leetcode_Solutions/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/henok3878/Leetcode_Solutions/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -473,12 +475,14 @@
 | [0130-surrounded-regions](https://github.com/henok3878/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/henok3878/Leetcode_Solutions/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
+| [0801-is-graph-bipartite](https://github.com/henok3878/Leetcode_Solutions/tree/master/0801-is-graph-bipartite) |
 ## Graph
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/henok3878/Leetcode_Solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/henok3878/Leetcode_Solutions/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
+| [0801-is-graph-bipartite](https://github.com/henok3878/Leetcode_Solutions/tree/master/0801-is-graph-bipartite) |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2472-build-a-matrix-with-conditions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Backtracking
