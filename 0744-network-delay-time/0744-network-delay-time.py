@@ -16,7 +16,6 @@ class Solution:
                     heapq.heappush(pq, (d + w, adj)) 
                     dist[adj] = d + w 
         ans = max(dist) 
-        print(dist)
         if ans == float('inf'):
             return -1 
         return ans 
