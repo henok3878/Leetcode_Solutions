@@ -288,6 +288,7 @@
 | [0020-valid-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/henok3878/Leetcode_Solutions/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/henok3878/Leetcode_Solutions/tree/master/0071-simplify-path) |
+| [0094-binary-tree-inorder-traversal](https://github.com/henok3878/Leetcode_Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0155-min-stack](https://github.com/henok3878/Leetcode_Solutions/tree/master/0155-min-stack) |
 | [0726-number-of-atoms](https://github.com/henok3878/Leetcode_Solutions/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -308,6 +309,7 @@
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/henok3878/Leetcode_Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -323,6 +325,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/henok3878/Leetcode_Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -338,6 +341,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/henok3878/Leetcode_Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
