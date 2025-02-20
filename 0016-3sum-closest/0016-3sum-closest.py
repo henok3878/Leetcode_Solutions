@@ -4,16 +4,10 @@ class Solution:
         nums.sort() 
         n = len(nums)
         best = float('inf')
-        for i in range(n):
-            j = 0 
+        for i in range(n-2):
+            j = i + 1
             k = n - 1 
             while(j < k):
-                if(j == i):
-                    j += 1 
-                    continue 
-                if (k == i):
-                    k -= 1 
-                    continue 
                 curr = nums[i] + nums[j] + nums[k] 
                 if(abs(curr - target) < abs(best - target)):
                     best = curr 
