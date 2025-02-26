@@ -4,12 +4,23 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         n = len(nums)
+        def reverse(arr, l, r):
+            while l < r:
+                nums[l],nums[r] = nums[r], nums[l]
+                l += 1 
+                r -= 1 
+        
         k = k % n 
-        k_nums = nums[n-k:]
-        for i in range(n-k-1, -1,-1):
-            nums[i + k] = nums[i] 
-        for i in range(k):
-            nums[i] = k_nums[i] 
+        reverse(nums,0, n-k-1)
+        reverse(nums,n-k,n-1)
+        l = 0
+        r = n - 1 
+        while l < r: 
+            nums[l], nums[r] = nums[r], nums[l] 
+            l += 1 
+            r -= 1 
+    
+
         
         
         
