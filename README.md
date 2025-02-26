@@ -22,6 +22,7 @@
 | [0068-text-justification](https://github.com/henok3878/Leetcode_Solutions/tree/master/0068-text-justification) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/henok3878/Leetcode_Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/henok3878/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/henok3878/Leetcode_Solutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/henok3878/Leetcode_Solutions/tree/master/0135-candy) |
@@ -95,6 +96,7 @@
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/henok3878/Leetcode_Solutions/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0064-minimum-path-sum) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/henok3878/Leetcode_Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/henok3878/Leetcode_Solutions/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0300-longest-increasing-subsequence) |
