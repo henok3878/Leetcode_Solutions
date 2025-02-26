@@ -5,13 +5,11 @@ class Solution:
         """
         n = len(nums)
         k = k % n 
-        if(0 < k < n):
-            temp = []
-            for i in range(n - k, n):
-                temp.append(nums[i])
-            for i in range(n-1,-1,-1):
-                if(i < k):
-                    nums[i] = temp[i]
-                else:
-                    nums[i] = nums[ i - k]
-            
+        k_nums = nums[n-k:]
+        for i in range(n-k-1, -1,-1):
+            nums[i + k] = nums[i] 
+        for i in range(k):
+            nums[i] = k_nums[i] 
+        
+        
+        
