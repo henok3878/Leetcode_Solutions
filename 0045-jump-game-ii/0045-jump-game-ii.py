@@ -1,11 +1,14 @@
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        n = len(nums)
-        hops = [float('inf')] * n 
-        hops[0] = 0 
-        for i in range(n):
-            jump = min(nums[i] + 1, n-i) 
-            for j in range(jump):
-                hops[i + j] = min(hops[i + j], hops[i] + 1) 
+        best = 0 
+        curr = 0
+        cnt = 0 
+        for i, num in enumerate(nums):
+            # print(i,curr, best, cnt)
+            if i > curr: 
+                cnt += 1 
+                curr = best 
+            if(nums[i] + i > best):
+                best = nums[i] + i 
 
-        return hops[-1]
+        return cnt 
