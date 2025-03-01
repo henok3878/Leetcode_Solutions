@@ -1,16 +1,21 @@
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
-        n = len(citations)
-        cands = [0] * (n + 1) 
-        for c in citations:
-            if c > n:
-               c = n 
-            cands[c] += 1 
+        best = 0 
+        low = 0
+        high = 10**3 
 
-        suffix = 0 
-        for i in range(n,-1,-1):
-            suffix += cands[i]
-            if suffix >= i:
-                return i 
-        return 0
-        
+        def pos(x):
+            cnt = 0 
+            for num in citations:
+                if num >= x:
+                    cnt += 1 
+            return cnt >= x 
+        while low <= high:
+            mid = (low + high) // 2 
+            if pos(mid):
+                best = mid 
+                low = mid + 1 
+            else:
+                high = mid - 1 
+        return best 
+            
