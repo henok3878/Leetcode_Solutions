@@ -37,6 +37,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/henok3878/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/henok3878/Leetcode_Solutions/tree/master/0274-h-index) |
+| [0275-h-index-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0275-h-index-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/henok3878/Leetcode_Solutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/henok3878/Leetcode_Solutions/tree/master/0322-coin-change) |
@@ -212,6 +213,7 @@
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/henok3878/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
+| [0275-h-index-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0275-h-index-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0792-binary-search](https://github.com/henok3878/Leetcode_Solutions/tree/master/0792-binary-search) |
