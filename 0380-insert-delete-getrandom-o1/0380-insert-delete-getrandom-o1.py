@@ -2,9 +2,8 @@ class RandomizedSet:
 
     def __init__(self):
         self.seed = 42 
-        self.a = 1103515245
-        self.c = 12345
-        self.m = 2 ** 31 
+        self.a = 48271 
+        self.m = 2 ** 31 - 1 
         self.map = {}
         self.nums = []
 
@@ -31,7 +30,7 @@ class RandomizedSet:
 
     def random(self):
         n = len(self.nums)
-        self.seed = ((self.a * self.seed) + self.c) % self.m 
+        self.seed = ((self.a * self.seed)) % self.m 
         idx = int((self.seed / self.m) * n)
         return self.nums[idx]
 
