@@ -1,18 +1,22 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        n = len(height)
-        left_mx = [0] * n
+        n = len(height) 
+        stored = [0] * n  
         mx = height[0]
-        for i in range(1,n):
-            left_mx[i] = mx 
-            mx = max(mx, height[i]) 
-        ans = 0 
-        mx = 0
-        for i in range(n - 1, -1,-1):
-            min_mx = min(left_mx[i], mx) 
-            ans += max(0, min_mx - height[i]) 
-            mx = max(height[i], mx)
-        
-        return ans 
-
-        
+        for i in range(1, n):
+            curr = height[i]
+            if curr < mx:
+                stored[i] = mx - curr 
+            mx = max(curr, mx) 
+        stored[-1] = 0
+        mx = height[-1] 
+        for i in range(n-2, -1,-1):
+            curr = height[i] 
+            if mx >= curr:
+                stored[i] =min(stored[i], mx - curr) 
+            else:
+                stored[i] = 0 
+            mx = max(curr, mx) 
+        stored[0] = 0
+        # print(stored)
+        return sum(stored)
