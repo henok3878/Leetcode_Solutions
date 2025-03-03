@@ -1,19 +1,18 @@
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
-        '''
-            -------------------->
-                        --------> 
-            ------------>
-        '''
         n = len(gas)
-        deltas = [ (x - y) for x,y in zip(gas, cost)]
-        total = 0 
-        curr_delta = 0
-        ans = 0
-        for i,val in enumerate(deltas):
-            total += val 
-            curr_delta += val 
-            if curr_delta < 0:
-                ans = i + 1
-                curr_delta = 0 
-        return -1 if total < 0 else ans
+        delta = [gas[i] - cost[i] for i in range(n)] 
+        delta += delta 
+        curr = 0 
+        i = 0
+        j = 0 
+        while i < n and j < len(delta):
+            curr += delta[j] 
+            while curr < 0 and i <= j:
+                curr -= delta[i] 
+                i += 1 
+            j += 1 
+            if curr >= 0 and j - i >= n:
+                return i
+        return -1 
+
