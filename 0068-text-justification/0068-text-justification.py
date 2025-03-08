@@ -2,34 +2,38 @@ class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         ans = [] 
         curr = []
-        chars_cnt = 0
-        for word in words:
-            if len(curr) + (chars_cnt) + len(word) <= maxWidth:
-                curr.append(word)
-                chars_cnt += len(word)
+        curr_cnt = 0
+        def justify(curr, curr_cnt, last = False):
+            justified = ""
+            if last:
+                justified = " ".join(curr) 
             else:
-                #distribute the spaces evenly 
-                total_space = (maxWidth - chars_cnt)
-                if(len(curr) == 1):
-                    ans.append(curr[0] + (" ") * total_space)
-                else:
-                    space = total_space // (len(curr) - 1)
-                    reminder = total_space % (len(curr) -1)
-                    line = ""
-                    k = len(curr)
-                    for i,w in enumerate(curr):
-                        line += w 
-                        if(i + 1 < k):
-                            line += (" " * space) 
-                            if reminder > 0:
-                                line += " " 
-                                reminder -= 1 
-                    ans.append(line) 
-                curr = [word]
-                chars_cnt = len(word)
-        if curr:
-            line = " ".join(curr)
-            line += (" ") * (maxWidth - len(line))
-            ans.append(line)
-                
+                spaces = maxWidth - curr_cnt 
+                div_spaces = spaces 
+                rem_spaces = 0 
+                if len(curr) > 1:
+                    div_spaces = spaces // (len(curr) - 1) 
+                    rem_spaces = spaces % (len(curr) - 1) 
+                for i in range(len(curr) - 1):
+                    word = curr[i]
+                    justified += word 
+                    justified += " " * div_spaces 
+                    if rem_spaces:
+                        justified += " " 
+                        rem_spaces -= 1 
+                justified += curr[-1] 
+            justified += (" ") * (maxWidth - len(justified)) 
+            return justified 
+
+        for word in words:
+            l = len(word)
+            spaces = max(0, len(curr))
+            if curr_cnt + l + spaces > maxWidth:
+                ans.append(justify(curr, curr_cnt))  
+                curr_cnt = len(word) 
+                curr  = [word] 
+            else:
+                curr.append(word) 
+                curr_cnt += len(word) 
+        ans.append(justify(curr, curr_cnt, last = True ))
         return ans 
