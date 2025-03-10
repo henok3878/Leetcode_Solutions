@@ -48,6 +48,7 @@
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/henok3878/Leetcode_Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/henok3878/Leetcode_Solutions/tree/master/0792-binary-search) |
+| [0808-number-of-matching-subsequences](https://github.com/henok3878/Leetcode_Solutions/tree/master/0808-number-of-matching-subsequences) |
 | [0945-snakes-and-ladders](https://github.com/henok3878/Leetcode_Solutions/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0948-sort-an-array) |
 | [1022-unique-paths-iii](https://github.com/henok3878/Leetcode_Solutions/tree/master/1022-unique-paths-iii) |
@@ -109,6 +110,7 @@
 | [0494-target-sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0494-target-sum) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/henok3878/Leetcode_Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/henok3878/Leetcode_Solutions/tree/master/0747-min-cost-climbing-stairs) |
+| [0808-number-of-matching-subsequences](https://github.com/henok3878/Leetcode_Solutions/tree/master/0808-number-of-matching-subsequences) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/henok3878/Leetcode_Solutions/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1511-count-number-of-teams](https://github.com/henok3878/Leetcode_Solutions/tree/master/1511-count-number-of-teams) |
@@ -144,6 +146,7 @@
 | [0274-h-index](https://github.com/henok3878/Leetcode_Solutions/tree/master/0274-h-index) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/henok3878/Leetcode_Solutions/tree/master/0726-number-of-atoms) |
+| [0808-number-of-matching-subsequences](https://github.com/henok3878/Leetcode_Solutions/tree/master/0808-number-of-matching-subsequences) |
 | [0948-sort-an-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0948-sort-an-array) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -175,6 +178,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0433-minimum-genetic-mutation](https://github.com/henok3878/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0726-number-of-atoms](https://github.com/henok3878/Leetcode_Solutions/tree/master/0726-number-of-atoms) |
+| [0808-number-of-matching-subsequences](https://github.com/henok3878/Leetcode_Solutions/tree/master/0808-number-of-matching-subsequences) |
 | [1023-time-based-key-value-store](https://github.com/henok3878/Leetcode_Solutions/tree/master/1023-time-based-key-value-store) |
 | [1207-delete-nodes-and-return-forest](https://github.com/henok3878/Leetcode_Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/henok3878/Leetcode_Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -217,6 +221,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/henok3878/Leetcode_Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0792-binary-search](https://github.com/henok3878/Leetcode_Solutions/tree/master/0792-binary-search) |
+| [0808-number-of-matching-subsequences](https://github.com/henok3878/Leetcode_Solutions/tree/master/0808-number-of-matching-subsequences) |
 | [1023-time-based-key-value-store](https://github.com/henok3878/Leetcode_Solutions/tree/master/1023-time-based-key-value-store) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -296,6 +301,7 @@
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/henok3878/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0726-number-of-atoms](https://github.com/henok3878/Leetcode_Solutions/tree/master/0726-number-of-atoms) |
+| [0808-number-of-matching-subsequences](https://github.com/henok3878/Leetcode_Solutions/tree/master/0808-number-of-matching-subsequences) |
 | [0812-rotate-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0812-rotate-string) |
 | [1023-time-based-key-value-store](https://github.com/henok3878/Leetcode_Solutions/tree/master/1023-time-based-key-value-store) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -468,6 +474,7 @@
 | [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/henok3878/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0808-number-of-matching-subsequences](https://github.com/henok3878/Leetcode_Solutions/tree/master/0808-number-of-matching-subsequences) |
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
 ## String Matching
 |  |
