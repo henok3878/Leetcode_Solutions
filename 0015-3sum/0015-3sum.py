@@ -22,10 +22,9 @@ class Solution:
                 num3 = nums[k] 
                 if(num2 + num3 > target):
                     k = nxt(nums, k, dir = -1)
-                elif (num2 + num3 < target):
-                    j = nxt(nums, j)
                 else:
-                    ans.append((num1, num2, num3)) 
+                    if (num2 + num3 == target):
+                        ans.append((num1, num2, num3)) 
                     j = nxt(nums, j)
             i = nxt(nums, i) 
         return ans 
