@@ -27,17 +27,3 @@ class Solution:
             if helper(s, st):
                 ans.append(st) 
         return ans 
-
-'''
-Input: s = "barfoothefoobarman", words = ["foo","bar"]
-
-we know that the concatnated substring is size of 6: 2 * 3 
-
-we can process s using a sliding window of size 6 
-
-Let's solve a subproblem: 
-    given a string of s len(words) * len(words[0]), check if it can be made by using those words 
-
-
-
-'''
