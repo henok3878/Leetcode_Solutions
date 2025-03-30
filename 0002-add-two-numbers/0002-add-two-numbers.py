@@ -10,21 +10,22 @@ class Solution:
         carry = 0 
         temp = ListNode() 
         dummy = temp  
-        while num1 or num2:
+        while num1 or num2 or carry:
             curr = carry 
+            
             if num1: 
                 curr += num1.val 
                 num1 = num1.next 
             if num2:
                 curr += num2.val 
                 num2 = num2.next 
+
             carry = curr // 10 
             curr %= 10  
-            curr_node = ListNode(val = curr) 
-            temp.next =curr_node 
-            temp = curr_node 
-        if carry:
-            temp.next = ListNode(val = carry) 
+
+            temp.next = ListNode(val = curr) 
+            temp = temp.next 
+
         return dummy.next 
 """
 9,9,9,9,9,9,9
