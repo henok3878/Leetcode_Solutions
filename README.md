@@ -16,6 +16,7 @@
 | [0045-jump-game-ii](https://github.com/henok3878/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/henok3878/Leetcode_Solutions/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/henok3878/Leetcode_Solutions/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/henok3878/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/henok3878/Leetcode_Solutions/tree/master/0056-merge-intervals) |
@@ -146,6 +147,7 @@
 | ------- |
 | [0015-3sum](https://github.com/henok3878/Leetcode_Solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/henok3878/Leetcode_Solutions/tree/master/0016-3sum-closest) |
+| [0049-group-anagrams](https://github.com/henok3878/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/henok3878/Leetcode_Solutions/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/henok3878/Leetcode_Solutions/tree/master/0169-majority-element) |
@@ -175,6 +177,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/henok3878/Leetcode_Solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0036-valid-sudoku](https://github.com/henok3878/Leetcode_Solutions/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/henok3878/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/henok3878/Leetcode_Solutions/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/henok3878/Leetcode_Solutions/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/henok3878/Leetcode_Solutions/tree/master/0138-copy-list-with-random-pointer) |
@@ -300,6 +303,7 @@
 | [0030-substring-with-concatenation-of-all-words](https://github.com/henok3878/Leetcode_Solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0038-count-and-say](https://github.com/henok3878/Leetcode_Solutions/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/henok3878/Leetcode_Solutions/tree/master/0044-wildcard-matching) |
+| [0049-group-anagrams](https://github.com/henok3878/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/henok3878/Leetcode_Solutions/tree/master/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/henok3878/Leetcode_Solutions/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/henok3878/Leetcode_Solutions/tree/master/0071-simplify-path) |
