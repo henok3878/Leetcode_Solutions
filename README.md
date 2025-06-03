@@ -63,6 +63,7 @@
 | [1293-three-consecutive-odds](https://github.com/henok3878/Leetcode_Solutions/tree/master/1293-three-consecutive-odds) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/henok3878/Leetcode_Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/henok3878/Leetcode_Solutions/tree/master/1381-maximum-score-words-formed-by-letters) |
+| [1424-maximum-candies-you-can-get-from-boxes](https://github.com/henok3878/Leetcode_Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/henok3878/Leetcode_Solutions/tree/master/1511-count-number-of-teams) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -533,6 +534,7 @@
 | [0945-snakes-and-ladders](https://github.com/henok3878/Leetcode_Solutions/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/henok3878/Leetcode_Solutions/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/henok3878/Leetcode_Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1424-maximum-candies-you-can-get-from-boxes](https://github.com/henok3878/Leetcode_Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/henok3878/Leetcode_Solutions/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Union Find
@@ -550,6 +552,7 @@
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/henok3878/Leetcode_Solutions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/henok3878/Leetcode_Solutions/tree/master/0801-is-graph-bipartite) |
+| [1424-maximum-candies-you-can-get-from-boxes](https://github.com/henok3878/Leetcode_Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2472-build-a-matrix-with-conditions](https://github.com/henok3878/Leetcode_Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Backtracking
