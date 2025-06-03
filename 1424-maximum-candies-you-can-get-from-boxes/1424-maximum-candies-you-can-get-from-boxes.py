@@ -7,6 +7,7 @@ class Solution:
 
         def get_state(box):
             return -(status[box] + int(box in can_open))
+
         for box in initialBoxes:
             push(pq,(get_state(box), box)) 
             
@@ -16,11 +17,14 @@ class Solution:
             # print(f"pq: {pq}")
             state , curr = pop(pq) 
             state = get_state(curr)  
+
             if not state:
                 continue 
+                
             ans += candies[curr]
             visited.add(curr)
             can_open.update(keys[curr])
+            
             for box in containedBoxes[curr]:
                 push(pq, (get_state(box), box))
                 
