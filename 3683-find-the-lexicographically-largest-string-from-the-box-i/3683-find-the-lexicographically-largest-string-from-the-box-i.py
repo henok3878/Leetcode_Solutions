@@ -13,9 +13,8 @@ class Solution:
 
         curr = ""
         for leng in range(mx_ans_len):
-            done = all(idx == -1 for idx in largest_idx)
 
-            if done:
+            if not largest_idx:
                 break
                 
             curr_best = 'a'
@@ -25,17 +24,10 @@ class Solution:
             curr += curr_best 
             new_largest_idx = []
             for i,idx in enumerate(largest_idx):
-                if idx == -1:
-                    continue 
-                elif word[idx] == curr_best: 
-                    largest_idx[i] += 1
-                    if largest_idx[i] == n:
-                        largest_idx[i] = -1
-                else:
-                    largest_idx[i] = -1
 
-                if largest_idx[i] != -1:
-                    new_largest_idx.append(largest_idx[i])
+                if idx + 1 < n and word[idx] == curr_best: 
+                    largest_idx[i] += 1
+                    new_largest_idx.append(idx + 1)
 
             largest_idx = new_largest_idx
 
