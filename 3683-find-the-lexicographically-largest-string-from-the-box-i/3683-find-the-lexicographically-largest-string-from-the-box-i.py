@@ -1,6 +1,6 @@
 class Solution:
     def answerString(self, word: str, numFriends: int) -> str:
-        # just find the lexicographically largest substring of size len(word) - (numFriends - 1)
+        # just find the lexicographically largest substring of size `len(word) - (numFriends - 1)` or less
         if numFriends == 1:
             return word 
 
