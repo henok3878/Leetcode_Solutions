@@ -20,11 +20,10 @@ class Solution:
                 
             curr_best = 'a'
             for idx in largest_idx:
-                if idx == -1:
-                    continue 
                 curr_best = max(curr_best, word[idx])
 
             curr += curr_best 
+            new_largest_idx = []
             for i,idx in enumerate(largest_idx):
                 if idx == -1:
                     continue 
@@ -34,4 +33,10 @@ class Solution:
                         largest_idx[i] = -1
                 else:
                     largest_idx[i] = -1
+
+                if largest_idx[i] != -1:
+                    new_largest_idx.append(largest_idx[i])
+
+            largest_idx = new_largest_idx
+
         return curr    
