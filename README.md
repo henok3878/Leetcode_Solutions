@@ -326,6 +326,7 @@
 | [0808-number-of-matching-subsequences](https://github.com/henok3878/Leetcode_Solutions/tree/master/0808-number-of-matching-subsequences) |
 | [0812-rotate-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/0812-rotate-string) |
 | [1023-time-based-key-value-store](https://github.com/henok3878/Leetcode_Solutions/tree/master/1023-time-based-key-value-store) |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/henok3878/Leetcode_Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/henok3878/Leetcode_Solutions/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -546,6 +547,7 @@
 | [0200-number-of-islands](https://github.com/henok3878/Leetcode_Solutions/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/henok3878/Leetcode_Solutions/tree/master/0399-evaluate-division) |
 | [0801-is-graph-bipartite](https://github.com/henok3878/Leetcode_Solutions/tree/master/0801-is-graph-bipartite) |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 ## Graph
 |  |
 | ------- |
