@@ -503,6 +503,7 @@
 | [0139-word-break](https://github.com/henok3878/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/henok3878/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/henok3878/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0440-k-th-smallest-in-lexicographical-order](https://github.com/henok3878/Leetcode_Solutions/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0808-number-of-matching-subsequences](https://github.com/henok3878/Leetcode_Solutions/tree/master/0808-number-of-matching-subsequences) |
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
 ## String Matching
