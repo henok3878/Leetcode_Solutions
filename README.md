@@ -207,6 +207,7 @@
 | [2755-extra-characters-in-a-string](https://github.com/henok3878/Leetcode_Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3541-report-spam-message](https://github.com/henok3878/Leetcode_Solutions/tree/master/3541-report-spam-message) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/henok3878/Leetcode_Solutions/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/henok3878/Leetcode_Solutions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -343,6 +344,7 @@
 | [3451-string-compression-iii](https://github.com/henok3878/Leetcode_Solutions/tree/master/3451-string-compression-iii) |
 | [3541-report-spam-message](https://github.com/henok3878/Leetcode_Solutions/tree/master/3541-report-spam-message) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/henok3878/Leetcode_Solutions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/henok3878/Leetcode_Solutions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Stack
 |  |
 | ------- |
@@ -429,6 +431,7 @@
 | [0383-ransom-note](https://github.com/henok3878/Leetcode_Solutions/tree/master/0383-ransom-note) |
 | [0948-sort-an-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0948-sort-an-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/henok3878/Leetcode_Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/henok3878/Leetcode_Solutions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Prefix Sum
 |  |
 | ------- |
