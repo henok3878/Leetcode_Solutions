@@ -138,6 +138,7 @@
 | [0179-largest-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0179-largest-number) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/henok3878/Leetcode_Solutions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/henok3878/Leetcode_Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/henok3878/Leetcode_Solutions/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/henok3878/Leetcode_Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/henok3878/Leetcode_Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -289,6 +290,7 @@
 | [0189-rotate-array](https://github.com/henok3878/Leetcode_Solutions/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/henok3878/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/henok3878/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/henok3878/Leetcode_Solutions/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1642-water-bottles](https://github.com/henok3878/Leetcode_Solutions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
