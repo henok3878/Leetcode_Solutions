@@ -74,6 +74,7 @@
 | [1803-average-waiting-time](https://github.com/henok3878/Leetcode_Solutions/tree/master/1803-average-waiting-time) |
 | [1940-maximum-xor-for-each-query](https://github.com/henok3878/Leetcode_Solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/henok3878/Leetcode_Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/henok3878/Leetcode_Solutions/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/henok3878/Leetcode_Solutions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/henok3878/Leetcode_Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2206-detonate-the-maximum-bombs](https://github.com/henok3878/Leetcode_Solutions/tree/master/2206-detonate-the-maximum-bombs) |
